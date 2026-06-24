@@ -38,15 +38,11 @@ a { color: inherit; text-decoration: none; }
 
 .brand, nav { display: flex; align-items: center; gap: 1rem; }
 .brand { font-weight: 900; letter-spacing: 0.04em; }
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 2.75rem;
-  height: 2.75rem;
-  border-radius: 50%;
-  color: var(--forest);
-  background: var(--saffron);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+.brand-logo {
+  width: 3.35rem;
+  height: 3.35rem;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.32));
 }
 
 nav { color: rgba(255, 255, 255, 0.74); font-weight: 700; }

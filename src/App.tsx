@@ -28,7 +28,11 @@ function App() {
     <>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="AAEGB - início">
-          <span className="brand-mark">A</span>
+          <img
+            className="brand-logo"
+            src="/site-amigos-escolas/images/logo-aaegb.svg"
+            alt="Logo da AAEGB"
+          />
           <span>AAEGB</span>
         </a>
         <nav aria-label="Navegação principal">
