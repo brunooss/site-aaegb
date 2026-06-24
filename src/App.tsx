@@ -1,8 +1,8 @@
 const impactStats = [
-  { value: '15.000+', label: 'Alunos' },
-  { value: '91+', label: 'Tabancas' },
-  { value: '15+', label: 'Anos' },
-  { value: '1.000+', label: 'Famílias' },
+  { value: '842+', label: 'Alunos alcançados' },
+  { value: '15+', label: 'Anos de missão' },
+  { value: '91', label: 'Tabancas atendidas' },
+  { value: '100+', label: 'Famílias acompanhadas' },
 ]
 
 const projects = [
@@ -71,7 +71,7 @@ function App() {
               <a className="button secondary" href="#projetos">Ver nossos projetos →</a>
             </div>
 
-            <div className="hero-stats" aria-label="Indicadores de autoridade">
+            <div className="hero-stats" id="impacto" aria-label="Indicadores de autoridade">
               {impactStats.map((stat) => (
                 <article key={stat.label}>
                   <strong>{stat.value}</strong>
