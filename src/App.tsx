@@ -40,33 +40,46 @@ function App() {
       </header>
 
       <main id="top">
-        <section className="hero section-grid">
-          <div className="hero-content">
-            <p className="eyebrow">Amigos das Escolas Guiné-Bissau</p>
-            <h1>Transformando comunidades através da educação.</h1>
+        <section className="hero" aria-label="Apresentação da AAEGB">
+          <div className="hero-media">
+            <img
+              src="/site-amigos-escolas/images/capa-hero.svg"
+              alt="Crianças da Escola Betel reunidas em Cacine"
+              loading="eager"
+            />
+            <div className="hero-overlay" />
+          </div>
+
+          <div className="hero-inner">
+            <div className="hero-kicker">
+              <span />
+              <p>Cacine · Guiné-Bissau · Desde 2009</p>
+            </div>
+
+            <h1>
+              <span>A educação é a semente.</span>
+              <strong>O futuro é a colheita.</strong>
+            </h1>
+
             <p className="hero-lead">
-              A AAEGB constrói capacidade, autonomia e futuro junto às comunidades de Cacine,
-              conectando educação, moradia, saúde, comunicação, água potável, tecnologia e esporte.
+              Há 15 anos transformamos o Sul da Guiné-Bissau com educação, moradia, água potável
+              e tecnologia — para que o <strong>Povo Nalu</strong> e comunidades vizinhas construam o próprio futuro.
             </p>
+
             <div className="hero-actions">
-              <a className="button primary" href="#participar">Quero ser parceiro</a>
-              <a className="button secondary" href="#projetos">Conheça os projetos</a>
+              <a className="button primary" href="mailto:contato@aaegb.org">Financiar um projeto</a>
+              <a className="button secondary" href="#projetos">Ver nossos projetos →</a>
+            </div>
+
+            <div className="hero-stats" id="impacto" aria-label="Indicadores de autoridade">
+              {impactStats.map((stat) => (
+                <article key={stat.label}>
+                  <strong>{stat.value}</strong>
+                  <span>{stat.label}</span>
+                </article>
+              ))}
             </div>
           </div>
-          <div className="hero-card" aria-label="Resumo da atuação em Cacine">
-            <span className="hero-card-badge">Cacine • Tombali</span>
-            <strong>91 tabancas alcançadas</strong>
-            <p>Uma rede de cuidado que acompanha alunos, famílias e líderes comunitários.</p>
-          </div>
-        </section>
-
-        <section className="stats-band" id="impacto" aria-label="Indicadores de impacto">
-          {impactStats.map((stat) => (
-            <article key={stat.label}>
-              <strong>{stat.value}</strong>
-              <span>{stat.label}</span>
-            </article>
-          ))}
         </section>
 
         <section className="section" id="projetos">
