@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next'
 
 const LANGUAGES = [
-  { code: 'pt', label: 'PT' },
-  { code: 'en', label: 'EN' },
-  { code: 'sv', label: 'SV' },
+  { code: 'pt', label: '🇧🇷' },
+  { code: 'en', label: '🇬🇧' },
+  { code: 'sv', label: '🇸🇪' },
 ]
 
 export function LanguageSelector() {
