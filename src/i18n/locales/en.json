@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "impact": "Impact",
+    "transparency": "Transparency",
+    "partner": "Become a partner"
+  },
+  "hero": {
+    "kicker": "Cacine · Guinea-Bissau · Since 2009",
+    "h1_line1": "Education is the seed.",
+    "h1_line2": "The future is the harvest.",
+    "lead_before": "For 15 years we have been transforming southern Guinea-Bissau with education, housing, clean water and technology — so that the ",
+    "lead_strong": "Nalu People",
+    "lead_after": " and neighboring communities can build their own future.",
+    "cta_primary": "Fund a project",
+    "cta_secondary": "See our projects →"
+  },
+  "stats": {
+    "students": "Students reached",
+    "years": "Years of mission",
+    "villages": "Villages served",
+    "families": "Families supported"
+  },
+  "projects_section": {
+    "eyebrow": "Much more than a school",
+    "h2": "A community development platform.",
+    "p": "Escola Betel is the heart of the mission, but the impact grows when each project removes a concrete barrier to studying, living healthily and dreaming of the future."
+  },
+  "projects": {
+    "school": { "title": "Escola Betel", "text": "Christian basic education and comprehensive formation for children and adolescents." },
+    "housing": { "title": "Student House", "text": "Safe housing for students who live far away and want to keep studying." },
+    "radio": { "title": "Voice of Peace Radio", "text": "Community communication with information, guidance and hope." },
+    "water": { "title": "Clean Water", "text": "Access to clean water to protect the health, time and dignity of families." },
+    "digital": { "title": "Digital Inclusion", "text": "Technology as a bridge to learning, work and new opportunities." },
+    "sports": { "title": "Sports Gymnasium", "text": "Sport, community and healthy development for the whole community." }
+  },
+  "map": {
+    "eyebrow": "Action map",
+    "h2": "Real presence in the territory.",
+    "p": "Partners fund actions with local grounding: a mission embedded in Guinea-Bissau, connected to the Tombali Region and committed to the Cacine Sector.",
+    "territory": ["Guinea-Bissau", "Tombali Region", "Cacine Sector", "91 villages reached"]
+  },
+  "story": {
+    "eyebrow": "Real stories",
+    "blockquote": "\"I walked three hours to study. Today I live in the Student House and dream of becoming a teacher.\"",
+    "p": "Each partnership shortens distances, protects dreams and multiplies leaders who remain serving their own communities."
+  },
+  "transparency": {
+    "eyebrow": "100% transparency",
+    "h2": "Trust for partners, companies, churches and foundations.",
+    "p": "Accountability must be simple to understand and easy to follow, with reports, field photos, indicators and evidence of responsible use of resources.",
+    "checks": ["Reports and accountability", "Field photos and indicators", "Goal updates per project", "Relationships with institutional partners"]
+  },
+  "campaign": {
+    "eyebrow": "Featured project",
+    "h2": "Sports Gymnasium",
+    "p": "A space for sport, community and comprehensive formation, expanding the school's reach to young people, families and neighboring communities.",
+    "meta_label": "Goal",
+    "progress_text": "Fundraising being updated. Contact us to receive the full campaign status."
+  },
+  "participation": {
+    "eyebrow": "How to participate",
+    "h2": "Choose the best way to walk with Cacine.",
+    "items": ["Become a sustainer", "Sponsor a student", "Fund a project", "Volunteer", "Pray for the mission", "Mobilize your church"]
+  },
+  "final_cta": {
+    "h2": "The next chapter of this story can begin with you.",
+    "button": "I want to be a partner"
+  }
+}

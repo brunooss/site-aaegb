@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "projects": "Projekt",
+    "impact": "Påverkan",
+    "transparency": "Transparens",
+    "partner": "Bli partner"
+  },
+  "hero": {
+    "kicker": "Cacine · Guinea-Bissau · Sedan 2009",
+    "h1_line1": "Utbildning är fröet.",
+    "h1_line2": "Framtiden är skörden.",
+    "lead_before": "I 15 år har vi förändrat södra Guinea-Bissau med utbildning, boende, rent vatten och teknik — för att ",
+    "lead_strong": "Nalu-folket",
+    "lead_after": " och grannsamhällen ska kunna bygga sin egen framtid.",
+    "cta_primary": "Finansiera ett projekt",
+    "cta_secondary": "Se våra projekt →"
+  },
+  "stats": {
+    "students": "Elever nådda",
+    "years": "År av mission",
+    "villages": "Byar betjänade",
+    "families": "Familjer stöttade"
+  },
+  "projects_section": {
+    "eyebrow": "Mycket mer än en skola",
+    "h2": "En plattform för samhällsutveckling.",
+    "p": "Escola Betel är hjärtat i missionen, men påverkan växer när varje projekt tar bort ett konkret hinder för att studera, leva hälsosamt och drömma om framtiden."
+  },
+  "projects": {
+    "school": { "title": "Escola Betel", "text": "Kristen grundutbildning och helhetlig formation för barn och ungdomar." },
+    "housing": { "title": "Studenthuset", "text": "Säkert boende för elever som bor långt bort och vill fortsätta studera." },
+    "radio": { "title": "Fredens Röst Radio", "text": "Samhällskommunikation med information, vägledning och hopp." },
+    "water": { "title": "Rent vatten", "text": "Tillgång till rent vatten för att skydda familjers hälsa, tid och värdighet." },
+    "digital": { "title": "Digital inkludering", "text": "Teknik som brygga till lärande, arbete och nya möjligheter." },
+    "sports": { "title": "Idrottshall", "text": "Idrott, gemenskap och hälsosam utveckling för hela samhället." }
+  },
+  "map": {
+    "eyebrow": "Verksamhetsområde",
+    "h2": "Verklig närvaro i territoriet.",
+    "p": "Partners finansierar insatser med lokal förankring: en mission inbäddad i Guinea-Bissau, ansluten till Tombali-regionen och engagerad i Cacine-sektorn.",
+    "territory": ["Guinea-Bissau", "Tombali-regionen", "Cacine-sektorn", "91 byar nådda"]
+  },
+  "story": {
+    "eyebrow": "Verkliga berättelser",
+    "blockquote": "\"Jag gick tre timmar för att studera. Idag bor jag i Studenthuset och drömmer om att bli lärare.\"",
+    "p": "Varje partnerskap förkortar avstånd, skyddar drömmar och multiplicerar ledare som fortsätter att tjäna sina egna samhällen."
+  },
+  "transparency": {
+    "eyebrow": "100% transparens",
+    "h2": "Förtroende för partners, företag, kyrkor och stiftelser.",
+    "p": "Redovisning ska vara enkel att förstå och lätt att följa, med rapporter, fältfoton, indikatorer och bevis på ansvarsfull användning av resurser.",
+    "checks": ["Rapporter och redovisning", "Fältfoton och indikatorer", "Måluppdateringar per projekt", "Relationer med institutionella partners"]
+  },
+  "campaign": {
+    "eyebrow": "Utvalda projekt",
+    "h2": "Idrottshall",
+    "p": "Ett utrymme för idrott, gemenskap och helhetlig formation, som utökar skolans räckvidd till ungdomar, familjer och grannsamhällen.",
+    "meta_label": "Mål",
+    "progress_text": "Insamling uppdateras. Kontakta oss för att få full kampanjstatus."
+  },
+  "participation": {
+    "eyebrow": "Hur man deltar",
+    "h2": "Välj det bästa sättet att gå med Cacine.",
+    "items": ["Bli en supporter", "Sponsra en elev", "Finansiera ett projekt", "Bli volontär", "Be för missionen", "Mobilisera din kyrka"]
+  },
+  "final_cta": {
+    "h2": "Nästa kapitel i denna historia kan börja med dig.",
+    "button": "Jag vill bli partner"
+  }
+}

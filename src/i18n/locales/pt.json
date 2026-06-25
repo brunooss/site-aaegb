@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "projects": "Projetos",
+    "impact": "Impacto",
+    "transparency": "Transparência",
+    "partner": "Ser parceiro"
+  },
+  "hero": {
+    "kicker": "Cacine · Guiné-Bissau · Desde 2009",
+    "h1_line1": "A educação é a semente.",
+    "h1_line2": "O futuro é a colheita.",
+    "lead_before": "Há 15 anos transformamos o Sul da Guiné-Bissau com educação, moradia, água potável e tecnologia — para que o ",
+    "lead_strong": "Povo Nalu",
+    "lead_after": " e comunidades vizinhas construam o próprio futuro.",
+    "cta_primary": "Financiar um projeto",
+    "cta_secondary": "Ver nossos projetos →"
+  },
+  "stats": {
+    "students": "Alunos alcançados",
+    "years": "Anos de missão",
+    "villages": "Tabancas atendidas",
+    "families": "Famílias acompanhadas"
+  },
+  "projects_section": {
+    "eyebrow": "Muito mais que uma escola",
+    "h2": "Uma plataforma de desenvolvimento comunitário.",
+    "p": "A Escola Betel é o coração da missão, mas o impacto cresce quando cada projeto remove uma barreira concreta para estudar, viver com saúde e sonhar com o futuro."
+  },
+  "projects": {
+    "school": { "title": "Escola Betel", "text": "Educação básica cristã e formação integral para crianças e adolescentes." },
+    "housing": { "title": "Casa do Estudante", "text": "Moradia segura para alunos que vivem longe e querem continuar estudando." },
+    "radio": { "title": "Rádio Voz de Paz", "text": "Comunicação comunitária com informação, orientação e esperança." },
+    "water": { "title": "Água Potável", "text": "Acesso à água limpa para proteger saúde, tempo e dignidade das famílias." },
+    "digital": { "title": "Inclusão Digital", "text": "Tecnologia como ponte para aprendizagem, trabalho e novas oportunidades." },
+    "sports": { "title": "Ginásio Poliesportivo", "text": "Esporte, convivência e desenvolvimento saudável para toda a comunidade." }
+  },
+  "map": {
+    "eyebrow": "Mapa de atuação",
+    "h2": "Presença real no território.",
+    "p": "Parceiros financiam ações com lastro local: uma missão inserida na Guiné-Bissau, conectada à Região de Tombali e comprometida com o Setor de Cacine.",
+    "territory": ["Guiné-Bissau", "Região de Tombali", "Setor de Cacine", "91 tabancas alcançadas"]
+  },
+  "story": {
+    "eyebrow": "Histórias reais",
+    "blockquote": "\"Eu caminhava três horas para estudar. Hoje moro na Casa do Estudante e sonho em ser professor.\"",
+    "p": "Cada parceria encurta distâncias, protege sonhos e multiplica lideranças que permanecem servindo suas próprias comunidades."
+  },
+  "transparency": {
+    "eyebrow": "100% transparência",
+    "h2": "Confiança para parceiros, empresas, igrejas e fundações.",
+    "p": "A prestação de contas deve ser simples de entender e fácil de acompanhar, com relatórios, fotos de campo, indicadores e evidências do uso responsável dos recursos.",
+    "checks": ["Relatórios e prestação de contas", "Fotos de campo e indicadores", "Atualização de metas por projeto", "Relacionamento com parceiros institucionais"]
+  },
+  "campaign": {
+    "eyebrow": "Projeto em destaque",
+    "h2": "Ginásio Poliesportivo",
+    "p": "Um espaço para esporte, convivência e formação integral, ampliando o alcance da escola para jovens, famílias e comunidades vizinhas.",
+    "meta_label": "Meta",
+    "progress_text": "Arrecadação em atualização. Fale conosco para receber o status completo da campanha."
+  },
+  "participation": {
+    "eyebrow": "Como participar",
+    "h2": "Escolha a melhor forma de caminhar com Cacine.",
+    "items": ["Tornar-se mantenedor", "Adotar um aluno", "Financiar um projeto", "Ser voluntário", "Orar pela missão", "Mobilizar sua igreja"]
+  },
+  "final_cta": {
+    "h2": "O próximo capítulo desta história pode começar com você.",
+    "button": "Quero ser parceiro"
+  }
+}

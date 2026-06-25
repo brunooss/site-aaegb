@@ -1,29 +1,23 @@
-const impactStats = [
-  { value: '842+', label: 'Alunos alcançados' },
-  { value: '15+', label: 'Anos de missão' },
-  { value: '91', label: 'Tabancas atendidas' },
-  { value: '100+', label: 'Famílias acompanhadas' },
+import { useTranslation } from 'react-i18next'
+import { LanguageSelector } from './components/LanguageSelector'
+
+const IMPACT_STATS = [
+  { value: '842+', key: 'stats.students' },
+  { value: '15+', key: 'stats.years' },
+  { value: '91', key: 'stats.villages' },
+  { value: '100+', key: 'stats.families' },
 ]
 
-const projects = [
-  { icon: '🏫', title: 'Escola Betel', text: 'Educação básica cristã e formação integral para crianças e adolescentes.' },
-  { icon: '🏠', title: 'Casa do Estudante', text: 'Moradia segura para alunos que vivem longe e querem continuar estudando.' },
-  { icon: '📻', title: 'Rádio Voz de Paz', text: 'Comunicação comunitária com informação, orientação e esperança.' },
-  { icon: '💧', title: 'Água Potável', text: 'Acesso à água limpa para proteger saúde, tempo e dignidade das famílias.' },
-  { icon: '💻', title: 'Inclusão Digital', text: 'Tecnologia como ponte para aprendizagem, trabalho e novas oportunidades.' },
-  { icon: '⚽', title: 'Ginásio Poliesportivo', text: 'Esporte, convivência e desenvolvimento saudável para toda a comunidade.' },
-]
-
-const participation = [
-  'Tornar-se mantenedor',
-  'Adotar um aluno',
-  'Financiar um projeto',
-  'Ser voluntário',
-  'Orar pela missão',
-  'Mobilizar sua igreja',
-]
+const PROJECT_KEYS = ['school', 'housing', 'radio', 'water', 'digital', 'sports'] as const
+const PROJECT_ICONS = ['🏫', '🏠', '📻', '💧', '💻', '⚽']
 
 function App() {
+  const { t } = useTranslation()
+
+  const participationItems = t('participation.items', { returnObjects: true }) as string[]
+  const territoryItems = t('map.territory', { returnObjects: true }) as string[]
+  const checkItems = t('transparency.checks', { returnObjects: true }) as string[]
+
   return (
     <>
       <header className="site-header">
@@ -36,10 +30,11 @@ function App() {
           <span>AAEGB</span>
         </a>
         <nav aria-label="Navegação principal">
-          <a href="#projetos">Projetos</a>
-          <a href="#impacto">Impacto</a>
-          <a href="#transparencia">Transparência</a>
-          <a className="nav-cta" href="#participar">Ser parceiro</a>
+          <a href="#projetos">{t('nav.projects')}</a>
+          <a href="#impacto">{t('nav.impact')}</a>
+          <a href="#transparencia">{t('nav.transparency')}</a>
+          <a className="nav-cta" href="#participar">{t('nav.partner')}</a>
+          <LanguageSelector />
         </nav>
       </header>
 
@@ -57,29 +52,28 @@ function App() {
           <div className="hero-inner">
             <div className="hero-kicker">
               <span />
-              <p>Cacine · Guiné-Bissau · Desde 2009</p>
+              <p>{t('hero.kicker')}</p>
             </div>
 
             <h1>
-              <span>A educação é a semente.</span>
-              <strong>O futuro é a colheita.</strong>
+              <span>{t('hero.h1_line1')}</span>
+              <strong>{t('hero.h1_line2')}</strong>
             </h1>
 
             <p className="hero-lead">
-              Há 15 anos transformamos o Sul da Guiné-Bissau com educação, moradia, água potável
-              e tecnologia — para que o <strong>Povo Nalu</strong> e comunidades vizinhas construam o próprio futuro.
+              {t('hero.lead_before')}<strong>{t('hero.lead_strong')}</strong>{t('hero.lead_after')}
             </p>
 
             <div className="hero-actions">
-              <a className="button primary" href="mailto:contato@aaegb.org">Financiar um projeto</a>
-              <a className="button secondary" href="#projetos">Ver nossos projetos →</a>
+              <a className="button primary" href="mailto:contato@aaegb.org">{t('hero.cta_primary')}</a>
+              <a className="button secondary" href="#projetos">{t('hero.cta_secondary')}</a>
             </div>
 
             <div className="hero-stats" id="impacto" aria-label="Indicadores de autoridade">
-              {impactStats.map((stat) => (
-                <article key={stat.label}>
+              {IMPACT_STATS.map((stat) => (
+                <article key={stat.key}>
                   <strong>{stat.value}</strong>
-                  <span>{stat.label}</span>
+                  <span>{t(stat.key)}</span>
                 </article>
               ))}
             </div>
@@ -88,19 +82,16 @@ function App() {
 
         <section className="section" id="projetos">
           <div className="section-heading">
-            <p className="eyebrow">Muito mais que uma escola</p>
-            <h2>Uma plataforma de desenvolvimento comunitário.</h2>
-            <p>
-              A Escola Betel é o coração da missão, mas o impacto cresce quando cada projeto remove
-              uma barreira concreta para estudar, viver com saúde e sonhar com o futuro.
-            </p>
+            <p className="eyebrow">{t('projects_section.eyebrow')}</p>
+            <h2>{t('projects_section.h2')}</h2>
+            <p>{t('projects_section.p')}</p>
           </div>
           <div className="projects-grid">
-            {projects.map((project) => (
-              <article className="project-card" key={project.title}>
-                <span>{project.icon}</span>
-                <h3>{project.title}</h3>
-                <p>{project.text}</p>
+            {PROJECT_KEYS.map((key, i) => (
+              <article className="project-card" key={key}>
+                <span>{PROJECT_ICONS[i]}</span>
+                <h3>{t(`projects.${key}.title`)}</h3>
+                <p>{t(`projects.${key}.text`)}</p>
               </article>
             ))}
           </div>
@@ -108,85 +99,69 @@ function App() {
 
         <section className="map-section section-grid">
           <div>
-            <p className="eyebrow">Mapa de atuação</p>
-            <h2>Presença real no território.</h2>
-            <p>
-              Parceiros financiam ações com lastro local: uma missão inserida na Guiné-Bissau,
-              conectada à Região de Tombali e comprometida com o Setor de Cacine.
-            </p>
+            <p className="eyebrow">{t('map.eyebrow')}</p>
+            <h2>{t('map.h2')}</h2>
+            <p>{t('map.p')}</p>
           </div>
           <ol className="territory-path" aria-label="Caminho territorial da atuação">
-            <li>Guiné-Bissau</li>
-            <li>Região de Tombali</li>
-            <li>Setor de Cacine</li>
-            <li>91 tabancas alcançadas</li>
+            {territoryItems.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
           </ol>
         </section>
 
         <section className="story-section">
-          <p className="eyebrow">Histórias reais</p>
-          <blockquote>
-            “Eu caminhava três horas para estudar. Hoje moro na Casa do Estudante e sonho em ser professor.”
-          </blockquote>
-          <p>
-            Cada parceria encurta distâncias, protege sonhos e multiplica lideranças que permanecem
-            servindo suas próprias comunidades.
-          </p>
+          <p className="eyebrow">{t('story.eyebrow')}</p>
+          <blockquote>{t('story.blockquote')}</blockquote>
+          <p>{t('story.p')}</p>
         </section>
 
         <section className="transparency section-grid" id="transparencia">
           <div>
-            <p className="eyebrow">100% transparência</p>
-            <h2>Confiança para parceiros, empresas, igrejas e fundações.</h2>
-            <p>
-              A prestação de contas deve ser simples de entender e fácil de acompanhar, com relatórios,
-              fotos de campo, indicadores e evidências do uso responsável dos recursos.
-            </p>
+            <p className="eyebrow">{t('transparency.eyebrow')}</p>
+            <h2>{t('transparency.h2')}</h2>
+            <p>{t('transparency.p')}</p>
           </div>
           <ul className="check-list">
-            <li>Relatórios e prestação de contas</li>
-            <li>Fotos de campo e indicadores</li>
-            <li>Atualização de metas por projeto</li>
-            <li>Relacionamento com parceiros institucionais</li>
+            {checkItems.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
           </ul>
         </section>
 
         <section className="campaign">
           <div>
-            <p className="eyebrow">Projeto em destaque</p>
-            <h2>Ginásio Poliesportivo</h2>
-            <p>
-              Um espaço para esporte, convivência e formação integral, ampliando o alcance da escola
-              para jovens, famílias e comunidades vizinhas.
-            </p>
+            <p className="eyebrow">{t('campaign.eyebrow')}</p>
+            <h2>{t('campaign.h2')}</h2>
+            <p>{t('campaign.p')}</p>
           </div>
           <div className="progress-card">
             <div className="progress-meta">
-              <span>Meta</span>
+              <span>{t('campaign.meta_label')}</span>
               <strong>R$ 1.591.039</strong>
             </div>
             <div className="progress-track" aria-label="Progresso de arrecadação em atualização">
               <span style={{ width: '32%' }} />
             </div>
-            <p>Arrecadação em atualização. Fale conosco para receber o status completo da campanha.</p>
+            <p>{t('campaign.progress_text')}</p>
           </div>
         </section>
 
         <section className="section" id="participar">
           <div className="section-heading">
-            <p className="eyebrow">Como participar</p>
-            <h2>Escolha a melhor forma de caminhar com Cacine.</h2>
+            <p className="eyebrow">{t('participation.eyebrow')}</p>
+            <h2>{t('participation.h2')}</h2>
           </div>
           <div className="participation-grid">
-            {participation.map((item) => (
+            {participationItems.map((item) => (
               <a href="mailto:contato@aaegb.org" key={item}>{item}</a>
             ))}
           </div>
         </section>
 
         <section className="final-cta">
-          <h2>O próximo capítulo desta história pode começar com você.</h2>
-          <a className="button primary" href="mailto:contato@aaegb.org">Quero ser parceiro</a>
+          <h2>{t('final_cta.h2')}</h2>
+          <a className="button primary" href="mailto:contato@aaegb.org">{t('final_cta.button')}</a>
         </section>
       </main>
     </>
