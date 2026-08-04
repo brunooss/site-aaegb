@@ -17,7 +17,7 @@ export function Footer() {
           </a>
           <p className="footer-desc">{t('footer.about_desc')}</p>
           <div className="footer-socials">
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/maosquecompartilham/" target="_blank" rel="noreferrer" aria-label="Instagram">
               📸 Instagram
             </a>
             <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
