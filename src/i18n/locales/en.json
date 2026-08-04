@@ -7,13 +7,13 @@
   },
   "hero": {
     "kicker": "Cacine · Guinea-Bissau · Since 2009",
-    "h1_line1": "Education is the seed.",
-    "h1_line2": "The future is the harvest.",
-    "lead_before": "For 15 years we have been transforming southern Guinea-Bissau with education, housing, clean water and technology — so that the ",
+    "h1_line1": "We are a platform for",
+    "h1_line2": "community development.",
+    "lead_before": "For 15 years AAEGB has been working in the Cacine Sector, promoting autonomy through Escola Betel, housing, clean water and technology for the ",
     "lead_strong": "Nalu People",
-    "lead_after": " and neighboring communities can build their own future.",
+    "lead_after": " and neighboring communities to build their own future.",
     "cta_primary": "Fund a project",
-    "cta_secondary": "See our projects →"
+    "cta_secondary": "See our projects ↓"
   },
   "stats": {
     "students": "Students reached",
@@ -23,48 +23,141 @@
   },
   "projects_section": {
     "eyebrow": "Much more than a school",
-    "h2": "A community development platform.",
+    "h2": "Our Projects in Action",
     "p": "Escola Betel is the heart of the mission, but the impact grows when each project removes a concrete barrier to studying, living healthily and dreaming of the future."
   },
   "projects": {
-    "school": { "title": "Escola Betel", "text": "Christian basic education and comprehensive formation for children and adolescents." },
-    "housing": { "title": "Student House", "text": "Safe housing for students who live far away and want to keep studying." },
-    "radio": { "title": "Voice of Peace Radio", "text": "Community communication with information, guidance and hope." },
-    "water": { "title": "Clean Water", "text": "Access to clean water to protect the health, time and dignity of families." },
-    "digital": { "title": "Digital Inclusion", "text": "Technology as a bridge to learning, work and new opportunities." },
-    "sports": { "title": "Sports Gymnasium", "text": "Sport, community and healthy development for the whole community." }
+    "school": { "title": "Escola Betel", "text": "Christian basic education and comprehensive formation for over 842 children and adolescents." },
+    "housing": { "title": "Student House", "text": "Safe housing for students from distant villages to continue their studies." },
+    "radio": { "title": "Voice of Peace Radio", "text": "Community communication with information, health guidance and hope." },
+    "water": { "title": "Clean Water & Health", "text": "Artesian wells to protect the health and dignity of hundreds of families." },
+    "digital": { "title": "Digital Inclusion", "text": "Technology lab as a bridge to learning and work opportunities." },
+    "sports": { "title": "Sports Gymnasium", "text": "Sports, health and community gathering for the youth of Cacine." }
   },
   "map": {
     "eyebrow": "Action map",
-    "h2": "Real presence in the territory.",
-    "p": "Partners fund actions with local grounding: a mission embedded in Guinea-Bissau, connected to the Tombali Region and committed to the Cacine Sector.",
-    "territory": ["Guinea-Bissau", "Tombali Region", "Cacine Sector", "91 villages reached"]
+    "h2": "Real presence in the territory of Guinea-Bissau.",
+    "p": "Partners fund actions with local grounding: a mission embedded in West Africa, connected to the Tombali Region and committed to the Cacine Sector.",
+    "territory": ["Guinea-Bissau (Country)", "Tombali Region", "Cacine Sector", "91 Villages Reached"]
   },
   "story": {
-    "eyebrow": "Real stories",
+    "eyebrow": "Real Stories & Testimonial",
+    "h2": "Voices of those living the transformation",
+    "video_title": "Watch the Official Testimonial",
+    "video_desc": "Learn in detail the story of impact and transformation lived by those served by AAEGB in southern Guinea-Bissau.",
     "blockquote": "\"I walked three hours to study. Today I live in the Student House and dream of becoming a teacher.\"",
+    "author_1": "Sene (Escola Betel Student)",
+    "blockquote_2": "\"The arrival of clean water and the school changed the life of our village. Our children now have a future.\"",
+    "author_2": "Community Leader in Cacine",
     "p": "Each partnership shortens distances, protects dreams and multiplies leaders who remain serving their own communities."
   },
   "transparency": {
-    "eyebrow": "100% transparency",
-    "h2": "Trust for partners, companies, churches and foundations.",
-    "p": "Accountability must be simple to understand and easy to follow, with reports, field photos, indicators and evidence of responsible use of resources.",
-    "checks": ["Reports and accountability", "Field photos and indicators", "Goal updates per project", "Relationships with institutional partners"]
+    "eyebrow": "100% Transparency",
+    "h2": "We value transparency in all projects.",
+    "p": "Below you can view detailed progress for each project and access full financial accountability.",
+    "sheet_button": "Access Full Accountability Report (Open Spreadsheet ↗)",
+    "checks": [
+      "Periodic and audited financial reports",
+      "Field photos, receipts, and progress indicators",
+      "Transparent goal updates per initiative",
+      "Direct relationships with partners and donors"
+    ]
   },
   "campaign": {
     "eyebrow": "Featured project",
-    "h2": "Sports Gymnasium",
-    "p": "A space for sport, community and comprehensive formation, expanding the school's reach to young people, families and neighboring communities.",
-    "meta_label": "Goal",
-    "progress_text": "Fundraising being updated. Contact us to receive the full campaign status."
+    "h2": "Construction of the Betel Sports Gymnasium",
+    "p": "A space for sports, community gatherings, and comprehensive formation, expanding the school's reach to youth, families, and neighboring villages.",
+    "meta_label": "Campaign Goal",
+    "raised_label": "Raised to date",
+    "progress_text": "Donate and help complete the gymnasium construction this year.",
+    "cta_all_projects": "See all projects ↑"
   },
   "participation": {
     "eyebrow": "How to participate",
     "h2": "Choose the best way to walk with Cacine.",
-    "items": ["Become a sustainer", "Sponsor a student", "Fund a project", "Volunteer", "Pray for the mission", "Mobilize your church"]
+    "cards": {
+      "maintainer": { "title": "Become a sustainer", "desc": "Support the mission monthly and ensure the ongoing sustainability of all projects." },
+      "student": { "title": "Sponsor a student", "desc": "Transform a child's life by ensuring education, meals, and school uniforms." },
+      "fund": { "title": "Fund a project", "desc": "Make one-time donations to accelerate clean water, housing, or technology works." },
+      "volunteer": { "title": "Volunteer", "desc": "Donate your skills in health, education, engineering, or communications." },
+      "pray": { "title": "Pray for the mission", "desc": "Join our intercession network and strengthen our team in the field." },
+      "mobilize": { "title": "Mobilize your church", "desc": "Bring Cacine's cause to your local church community using our guides and materials." }
+    }
+  },
+  "modals": {
+    "close": "Close",
+    "maintainer": {
+      "title": "Become a Recurring Sustainer",
+      "text": "Your monthly support keeps teachers paid, daily meals provided, and project infrastructure operating reliably.",
+      "cta": "Proceed to Sustainer Subscription ↗"
+    },
+    "student": {
+      "title": "Sponsor a Student in Cacine",
+      "impact_title": "The impact of your sponsorship:",
+      "impact_items": [
+        "Access to quality basic education and school supplies",
+        "Daily nutritious meals at Escola Betel",
+        "Pedagogical and health monitoring",
+        "Warm care and an opportunity for a dignified future"
+      ],
+      "form_title": "Express Interest in Sponsoring:",
+      "name": "Full Name",
+      "email": "Email Address",
+      "submit": "Submit Sponsorship Application"
+    },
+    "fund": {
+      "title": "Fund a Project",
+      "subtitle": "Choose your one-time contribution amount:",
+      "custom": "Custom amount ($/R$)",
+      "pix_title": "Official AAEGB PIX Key / Payment:",
+      "pix_key": "contato@aaegb.org (Email / PIX Key)",
+      "cta": "Confirm Donation ↗"
+    },
+    "volunteer": {
+      "title": "Volunteer with AAEGB",
+      "desc": "We need professionals and volunteers in education, health, engineering, and communications.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone / WhatsApp",
+      "area": "Your Field of Expertise / Skills",
+      "submit": "Submit Volunteer Application"
+    },
+    "pray": {
+      "title": "Pray for the Cacine Mission",
+      "gratitude": "We deeply appreciate your intercessory heart! Prayer is the pillar that sustains every step in the field.",
+      "topics_title": "Weekly Prayer Focus:",
+      "topics": [
+        "Health and physical protection of our team and teachers in Cacine",
+        "Completion of clean water wells and the sports gymnasium",
+        "Wisdom and discernment for local leadership at Escola Betel"
+      ],
+      "message_label": "Send an encouraging message to the field team:",
+      "send": "Send Encouraging Message"
+    },
+    "mobilize": {
+      "title": "Mobilize Your Church",
+      "desc": "We want to help your local church get involved practically and meaningfully with the mission in Guinea-Bissau.",
+      "resources_title": "Available Resources:",
+      "resources": [
+        "Slide presentation & Official field videos (HD)",
+        "Guide for missionary service and sermon outline",
+        "Explanatory PDF for elders and pastors",
+        "Booking for in-person or online presentation with missionaries"
+      ],
+      "cta": "Download Mobilization Kit (PDF) ↗"
+    }
+  },
+  "footer": {
+    "about_title": "AAEGB",
+    "about_desc": "Association of Friends of Guinea-Bissau Schools. Community development platform in the Cacine Sector.",
+    "links_title": "Navigation",
+    "contact_title": "Contact & Location",
+    "email": "Email: contato@aaegb.org",
+    "location": "Location: Cacine Sector, Tombali Region, Guinea-Bissau",
+    "rights": "© 2026 AAEGB. All rights reserved."
   },
   "final_cta": {
     "h2": "The next chapter of this story can begin with you.",
-    "button": "I want to be a partner"
+    "button": "I want to be a partner now"
   }
 }
