@@ -8,19 +8,19 @@ import { ParticipationModal, ParticipationType } from './components/Participatio
 import { Footer } from './components/Footer'
 
 const IMPACT_STATS = [
-  { value: '842+', key: 'stats.students' },
-  { value: '15+', key: 'stats.years' },
+  { value: '845', key: 'stats.students' },
+  { value: '28', key: 'stats.years' },
   { value: '91', key: 'stats.villages' },
-  { value: '100+', key: 'stats.families' },
+  { value: '20', key: 'stats.families' },
 ]
 
 const TRANSPARENCY_PROJECTS = [
-  { key: 'school', percent: 88, raised: 'R$ 245.000', goal: 'R$ 280.000' },
-  { key: 'housing', percent: 92, raised: 'R$ 184.000', goal: 'R$ 200.000' },
-  { key: 'radio', percent: 75, raised: 'R$ 90.000', goal: 'R$ 120.000' },
-  { key: 'water', percent: 70, raised: 'R$ 140.000', goal: 'R$ 200.000' },
-  { key: 'digital', percent: 65, raised: 'R$ 97.500', goal: 'R$ 150.000' },
-  { key: 'sports', percent: 32, raised: 'R$ 509.132', goal: 'R$ 1.591.039' },
+  { key: 'school', percent: 100, raised: '845 Alunos', goal: '704 Aprovados' },
+  { key: 'sports', percent: 65, raised: 'Fundação Pronta', goal: 'Cobertura / Telhado' },
+  { key: 'housing', percent: 100, raised: '20 Vagas Internato', goal: '100% Ocupado' },
+  { key: 'water', percent: 100, raised: 'Cantina Ativa', goal: 'Refeições Diárias' },
+  { key: 'digital', percent: 100, raised: 'Starlink & Solar', goal: '100% Conectado' },
+  { key: 'radio', percent: 85, raised: 'FM 107.7 MHz', goal: 'Programa Diário' },
 ]
 
 const PARTICIPATION_CARDS: { type: ParticipationType; icon: string; image: string }[] = [
@@ -36,7 +36,7 @@ const PARTICIPATION_CARDS: { type: ParticipationType; icon: string; image: strin
   },
   {
     type: 'fund',
-    icon: '💰',
+    icon: '🏗️',
     image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=600&q=80',
   },
   {
@@ -197,8 +197,8 @@ function App() {
                   <span style={{ width: `${proj.percent}%` }} />
                 </div>
                 <div className="card-bottom">
-                  <span>{proj.raised} arrecadados</span>
-                  <span>Meta: {proj.goal}</span>
+                  <span>{proj.raised}</span>
+                  <span>{proj.goal}</span>
                 </div>
               </div>
             ))}
@@ -206,9 +206,7 @@ function App() {
 
           <div className="transparency-actions text-center">
             <a
-              href="https://docs.google.com/spreadsheets"
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:aaegbbetelcacine@gmail.com?subject=Solicitacao%20de%20Relatorio%20Oficial%202025/2026"
               className="button secondary transparent-sheet-btn"
             >
               {t('transparency.sheet_button')}
@@ -217,7 +215,7 @@ function App() {
 
           <ul className="check-list transparency-checklist">
             {checkItems.map((item, idx) => (
-              <li key={idx}>{item}</li>
+              <li key={idx}>✓ {item}</li>
             ))}
           </ul>
         </section>
@@ -234,15 +232,15 @@ function App() {
           </div>
           <div className="progress-card">
             <div className="progress-meta">
-              <span>{t('campaign.meta_label')}</span>
-              <strong>R$ 1.591.039</strong>
+              <span>Status da Obra</span>
+              <strong>Fundação 100% Pronta</strong>
             </div>
-            <div className="progress-track" aria-label="Progresso de arrecadação em atualização">
-              <span style={{ width: '32%' }} />
+            <div className="progress-track" aria-label="Progresso da obra do Ginásio Poliesportivo">
+              <span style={{ width: '65%' }} />
             </div>
             <p>{t('campaign.progress_text')}</p>
             <button className="button primary full-width mt-4" onClick={() => setActiveModal('fund')}>
-              Contribuir para a Campanha
+              Financiar a Cobertura do Telhado
             </button>
           </div>
         </section>
@@ -272,7 +270,7 @@ function App() {
                   <span className="card-icon">{card.icon}</span>
                   <h3>{t(`participation.cards.${card.type}.title`)}</h3>
                   <p>{t(`participation.cards.${card.type}.desc`)}</p>
-                  <span className="card-action-link">Saiba como →</span>
+                  <span className="card-action-link">Saiba como apoiar →</span>
                 </div>
               </article>
             ))}

@@ -1,163 +1,166 @@
 {
   "nav": {
     "projects": "Projects",
-    "impact": "Impact",
+    "impact": "2025/2026 Impact",
     "transparency": "Transparency",
     "partner": "Become a partner"
   },
   "hero": {
-    "kicker": "Cacine · Guinea-Bissau · Since 2009",
+    "kicker": "Cacine · Guinea-Bissau · Founded in 1997 (28 Years)",
     "h1_line1": "We are a platform for",
     "h1_line2": "community development.",
-    "lead_before": "For 15 years AAEGB has been working in the Cacine Sector, promoting autonomy through Escola Betel, housing, clean water and technology for the ",
-    "lead_strong": "Nalu People",
-    "lead_after": " and neighboring communities to build their own future.",
+    "lead_before": "In the 2025/2026 school year, Escola Betel served ",
+    "lead_strong": "845 children and youth",
+    "lead_after": " in the Cacine Sector, providing comprehensive education from Kindergarten to High School, housing, daily meals, health care, and digital inclusion for the Nalu People.",
     "cta_primary": "Fund a project",
     "cta_secondary": "See our projects ↓"
   },
   "stats": {
-    "students": "Students reached",
-    "years": "Years of mission",
-    "villages": "Villages served",
-    "families": "Families supported"
+    "students": "Students in 2025/2026 (704 Passed)",
+    "years": "Years of Escola Betel (Since 1997)",
+    "villages": "Villages Served in the South",
+    "families": "Student House Boarding Capacity"
   },
   "projects_section": {
-    "eyebrow": "Much more than a school",
+    "eyebrow": "2025/2026 Activity Report",
     "h2": "Our Projects in Action",
-    "p": "Escola Betel is the heart of the mission, but the impact grows when each project removes a concrete barrier to studying, living healthily and dreaming of the future."
+    "p": "Escola Betel operates in 3 shifts (Kindergarten to 12th Grade) integrating education, daily meals, sustainable infrastructure, and health to transform families in Cacine."
   },
   "projects": {
-    "school": { "title": "Escola Betel", "text": "Christian basic education and comprehensive formation for over 842 children and adolescents." },
-    "housing": { "title": "Student House", "text": "Safe housing for students from distant villages to continue their studies." },
-    "radio": { "title": "Voice of Peace Radio", "text": "Community communication with information, health guidance and hope." },
-    "water": { "title": "Clean Water & Health", "text": "Artesian wells to protect the health and dignity of hundreds of families." },
-    "digital": { "title": "Digital Inclusion", "text": "Technology lab as a bridge to learning and work opportunities." },
-    "sports": { "title": "Sports Gymnasium", "text": "Sports, health and community gathering for the youth of Cacine." }
+    "school": { "title": "Escola Betel (3 Shifts)", "text": "845 students served from Kindergarten to High School (12th Grade). 704 students passed in the 2025/2026 school year." },
+    "housing": { "title": "Student House (Boarding)", "text": "20 boarding spots for vulnerable students from distant villages, with tutoring, housing, and meals." },
+    "radio": { "title": "Voice of Peace Radio (107.7 MHz)", "text": "'Betel on the Air' program hosted by Prof. Alfa Djaló, promoting education and community awareness." },
+    "water": { "title": "School Canteen & Clean Water", "text": "Daily free meals for Primary School (often the child's only daily meal) + dental care with NGO Mundo a Sorrir." },
+    "digital": { "title": "Digital Inclusion & Solar Energy", "text": "Solar power system and Starlink Internet donated by Sweden + Computer Course with Prof. Alfa Djaló." },
+    "sports": { "title": "Betel Sports Gymnasium", "text": "Construction in progress: land clearing, leveling, and foundation 100% completed. Roof structure next." }
   },
   "map": {
-    "eyebrow": "Action map",
-    "h2": "Real presence in the territory of Guinea-Bissau.",
-    "p": "Partners fund actions with local grounding: a mission embedded in West Africa, connected to the Tombali Region and committed to the Cacine Sector.",
-    "territory": ["Guinea-Bissau (Country)", "Tombali Region", "Cacine Sector", "91 Villages Reached"]
+    "eyebrow": "Territorial Presence",
+    "h2": "Real presence in Guinea-Bissau (Tombali Region).",
+    "p": "Active focus in the Cacine Sector and 91 southern villages, supported by sponsors from Hungary, Sweden, Brazil, Canada, Portugal, and Senegal.",
+    "territory": ["Guinea-Bissau (Country)", "Tombali Region", "Cacine Sector (Betel HQ)", "91 Villages Served"]
   },
   "story": {
-    "eyebrow": "Real Stories & Testimonial",
+    "eyebrow": "Report Stories & Testimonials",
     "h2": "Voices of those living the transformation",
-    "video_title": "Watch the Official Testimonial",
-    "video_desc": "Learn in detail the story of impact and transformation lived by those served by AAEGB in southern Guinea-Bissau.",
-    "blockquote": "\"I walked three hours to study. Today I live in the Student House and dream of becoming a teacher.\"",
-    "author_1": "Sene (Escola Betel Student)",
-    "blockquote_2": "\"The arrival of clean water and the school changed the life of our village. Our children now have a future.\"",
-    "author_2": "Community Leader in Cacine",
-    "p": "Each partnership shortens distances, protects dreams and multiplies leaders who remain serving their own communities."
+    "video_title": "Watch the Official Testimonial from Cacine",
+    "video_desc": "See how education, school meals, and infrastructure are bearing real fruit in the lives of children and teachers.",
+    "blockquote": "\"Immensely grateful to God and to you for the privilege of serving our people through Transformative Education!\"",
+    "author_1": "Pr. José Valberto T. Oliveira (Director of Escola Betel)",
+    "blockquote_2": "\"The school canteen guarantees the only daily meal for many of our children, increasing school attendance and learning.\"",
+    "author_2": "Pedagogical & Canteen Team at Betel",
+    "p": "Each partnership shortens distances, protects dreams, and multiplies community leaders in southern Guinea-Bissau."
   },
   "transparency": {
-    "eyebrow": "100% Transparency",
-    "h2": "We value transparency in all projects.",
-    "p": "Below you can view detailed progress for each project and access full financial accountability.",
-    "sheet_button": "Access Full Accountability Report (Open Spreadsheet ↗)",
+    "eyebrow": "2025/2026 Financial & Activity Report",
+    "h2": "Transparency and School Results",
+    "p": "Check the real progress of projects recorded in the 2025/2026 Official Report of Escola Betel de Cacine.",
+    "sheet_button": "View 2025/2026 Official Report (Full PDF ↗)",
     "checks": [
-      "Periodic and audited financial reports",
-      "Field photos, receipts, and progress indicators",
-      "Transparent goal updates per initiative",
-      "Direct relationships with partners and donors"
+      "845 students enrolled: 490 boys and 355 girls (704 passed)",
+      "Foundation and footings of Sports Gymnasium 100% completed",
+      "Active school canteen serving daily meals in Primary Education",
+      "Starlink Internet + Solar Power System donated by Swedish volunteers",
+      "Free dental check-ups and supplies by NGO Mundo a Sorrir (Portugal)",
+      "21 teachers and dedicated pedagogical staff in the field"
     ]
   },
   "campaign": {
     "eyebrow": "Featured project",
-    "h2": "Construction of the Betel Sports Gymnasium",
-    "p": "A space for sports, community gatherings, and comprehensive formation, expanding the school's reach to youth, families, and neighboring villages.",
-    "meta_label": "Campaign Goal",
-    "raised_label": "Raised to date",
-    "progress_text": "Donate and help complete the gymnasium construction this year.",
+    "h2": "Roofing of Betel Sports Gymnasium",
+    "p": "Foundation and footings are ready! The next step is raising the roof structure as soon as the material container arrives in Cacine.",
+    "meta_label": "Roofing Stage Goal",
+    "raised_label": "Foundation Completed",
+    "progress_text": "Help fund the roof structure and sports flooring for our 845 students.",
     "cta_all_projects": "See all projects ↑"
   },
   "participation": {
     "eyebrow": "How to participate",
-    "h2": "Choose the best way to walk with Cacine.",
+    "h2": "Join the mission of building lives in Cacine.",
     "cards": {
-      "maintainer": { "title": "Become a sustainer", "desc": "Support the mission monthly and ensure the ongoing sustainability of all projects." },
-      "student": { "title": "Sponsor a student", "desc": "Transform a child's life by ensuring education, meals, and school uniforms." },
-      "fund": { "title": "Fund a project", "desc": "Make one-time donations to accelerate clean water, housing, or technology works." },
-      "volunteer": { "title": "Volunteer", "desc": "Donate your skills in health, education, engineering, or communications." },
-      "pray": { "title": "Pray for the mission", "desc": "Join our intercession network and strengthen our team in the field." },
-      "mobilize": { "title": "Mobilize your church", "desc": "Bring Cacine's cause to your local church community using our guides and materials." }
+      "maintainer": { "title": "Become a sustainer", "desc": "Ensure school tuition and daily meals for children most in need." },
+      "student": { "title": "Sponsor a student", "desc": "Sponsor a student covering uniform, school supplies, and daily meals." },
+      "fund": { "title": "Fund the Gymnasium roof", "desc": "Contribute to metal roof beams, roofing sheets, and building supplies." },
+      "volunteer": { "title": "Volunteer in the field", "desc": "Support Student House management, computer classes, health, or youth care." },
+      "pray": { "title": "Pray for the mission", "desc": "Intercede for teachers, student health, and field team protection." },
+      "mobilize": { "title": "Mobilize your church", "desc": "Share Escola Betel's report with your church and organize a love offering." }
     }
   },
   "modals": {
     "close": "Close",
     "maintainer": {
-      "title": "Become a Recurring Sustainer",
-      "text": "Your monthly support keeps teachers paid, daily meals provided, and project infrastructure operating reliably.",
+      "title": "Become a Sustainer of Escola Betel",
+      "text": "Your monthly support keeps 21 teachers, 3 cooks, and 3 school shifts running with stability.",
       "cta": "Proceed to Sustainer Subscription ↗"
     },
     "student": {
       "title": "Sponsor a Student in Cacine",
-      "impact_title": "The impact of your sponsorship:",
+      "impact_title": "What your sponsorship guarantees:",
       "impact_items": [
-        "Access to quality basic education and school supplies",
-        "Daily nutritious meals at Escola Betel",
-        "Pedagogical and health monitoring",
-        "Warm care and an opportunity for a dignified future"
+        "Payment of school tuition and textbooks",
+        "Nutritious daily meal in the School Canteen",
+        "Dental and preventive health care",
+        "Guaranteed spot across the 3 shifts (K-12)"
       ],
       "form_title": "Express Interest in Sponsoring:",
       "name": "Full Name",
       "email": "Email Address",
-      "submit": "Submit Sponsorship Application"
+      "submit": "Submit Sponsor Application"
     },
     "fund": {
-      "title": "Fund a Project",
-      "subtitle": "Choose your one-time contribution amount:",
+      "title": "Fund Infrastructure Projects",
+      "subtitle": "Choose an amount to support the Gymnasium roof and artesian wells:",
       "custom": "Custom amount ($/R$)",
-      "pix_title": "Official AAEGB PIX Key / Payment:",
-      "pix_key": "contato@aaegb.org (Email / PIX Key)",
+      "pix_title": "Official Email / Payment Key:",
+      "pix_key": "aaegbbetelcacine@gmail.com (Email / PIX)",
       "cta": "Confirm Donation ↗"
     },
     "volunteer": {
-      "title": "Volunteer with AAEGB",
-      "desc": "We need professionals and volunteers in education, health, engineering, and communications.",
+      "title": "Volunteer with AAEGB / Escola Betel",
+      "desc": "Current needs: Student House Administration, Computer Instruction, Dentistry/Health, and Primary Care.",
       "name": "Full Name",
       "email": "Email Address",
       "phone": "Phone / WhatsApp",
-      "area": "Your Field of Expertise / Skills",
+      "area": "Field of Expertise (Education, Health, IT, Engineering)",
       "submit": "Submit Volunteer Application"
     },
     "pray": {
-      "title": "Pray for the Cacine Mission",
-      "gratitude": "We deeply appreciate your intercessory heart! Prayer is the pillar that sustains every step in the field.",
-      "topics_title": "Weekly Prayer Focus:",
+      "title": "Pray for the Mission in Cacine",
+      "gratitude": "We pray that God continues to use you as a channel of blessing for our students in the 2026/2027 school year!",
+      "topics_title": "2025/2026 Report Prayer Focus:",
       "topics": [
-        "Health and physical protection of our team and teachers in Cacine",
-        "Completion of clean water wells and the sports gymnasium",
-        "Wisdom and discernment for local leadership at Escola Betel"
+        "Wisdom and discernment for the director and 21 teachers",
+        "Arrival of the container with materials for the Gymnasium roof",
+        "Food supplies for the Canteen and Student House maintenance",
+        "Physical health and protection for 845 students and field volunteers"
       ],
-      "message_label": "Send an encouraging message to the field team:",
+      "message_label": "Send an encouraging message to Director Pr. Valberto and team:",
       "send": "Send Encouraging Message"
     },
     "mobilize": {
-      "title": "Mobilize Your Church",
-      "desc": "We want to help your local church get involved practically and meaningfully with the mission in Guinea-Bissau.",
-      "resources_title": "Available Resources:",
+      "title": "Mobilize Your Church for Cacine",
+      "desc": "Take Escola Betel's 28-year report to your local church with photos, videos, and testimonials.",
+      "resources_title": "Available Church Resources:",
       "resources": [
-        "Slide presentation & Official field videos (HD)",
-        "Guide for missionary service and sermon outline",
-        "Explanatory PDF for elders and pastors",
-        "Booking for in-person or online presentation with missionaries"
+        "2025/2026 Official Report PDF and field photos",
+        "Official video testimony and construction progress in HD",
+        "Missionary sermon outline and slide presentation",
+        "Booking for in-person or online talk with Director Pr. Valberto"
       ],
-      "cta": "Download Mobilization Kit (PDF) ↗"
+      "cta": "Download Church Mobilization Kit ↗"
     }
   },
   "footer": {
-    "about_title": "AAEGB",
-    "about_desc": "Association of Friends of Guinea-Bissau Schools. Community development platform in the Cacine Sector.",
+    "about_title": "AAEGB & Escola Betel",
+    "about_desc": "Association of Friends of Guinea-Bissau Schools. Transforming lives in the Cacine Sector through Christian Education since 1997.",
     "links_title": "Navigation",
     "contact_title": "Contact & Location",
-    "email": "Email: contato@aaegb.org",
-    "location": "Location: Cacine Sector, Tombali Region, Guinea-Bissau",
-    "rights": "© 2026 AAEGB. All rights reserved."
+    "email": "Email: aaegbbetelcacine@gmail.com",
+    "location": "HQ: Escola Betel, Cacine Sector, Tombali Region, Guinea-Bissau",
+    "rights": "© 2026 AAEGB - Escola Betel de Cacine. All rights reserved."
   },
   "final_cta": {
-    "h2": "The next chapter of this story can begin with you.",
+    "h2": "Let us continue building lives together in southern Guinea-Bissau.",
     "button": "I want to be a partner now"
   }
 }

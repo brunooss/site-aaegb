@@ -1,104 +1,106 @@
 {
   "nav": {
     "projects": "Projekt",
-    "impact": "Påverkan",
+    "impact": "Resultat 2025/2026",
     "transparency": "Transparens",
     "partner": "Bli partner"
   },
   "hero": {
-    "kicker": "Cacine · Guinea-Bissau · Sedan 2009",
+    "kicker": "Cacine · Guinea-Bissau · Grundad 1997 (28 År)",
     "h1_line1": "Vi är en plattform för",
     "h1_line2": "samhällsutveckling.",
-    "lead_before": "I 15 år har AAEGB verkat i Cacine-sektorn, främjat självständighet genom Escola Betel, boende, rent vatten och teknik för ",
-    "lead_strong": "Nalu-folket",
-    "lead_after": " och grannsamhällen att bygga sin egen framtid.",
+    "lead_before": "Under läsåret 2025/2026 tog Escola Betel hand om ",
+    "lead_strong": "845 barn och ungdomar",
+    "lead_after": " i Cacine-sektorn, med helhetlig utbildning från förskola till gymnasium, boende, dagliga måltider, hälsovård och digital inkludering för Nalu-folket.",
     "cta_primary": "Finansiera ett projekt",
     "cta_secondary": "Se våra projekt ↓"
   },
   "stats": {
-    "students": "Elever nådda",
-    "years": "År av mission",
-    "villages": "Byar betjänade",
-    "families": "Familjer stöttade"
+    "students": "Elever 2025/2026 (704 Godkända)",
+    "years": "År av Escola Betel (Sedan 1997)",
+    "villages": "Byar i Södern",
+    "families": "Platser i Studenthuset (Internat)"
   },
   "projects_section": {
-    "eyebrow": "Mycket mer än en skola",
+    "eyebrow": "Verksamhetsrapport 2025/2026",
     "h2": "Våra projekt i handling",
-    "p": "Escola Betel är hjärtat i missionen, men påverkan växer när varje projekt tar bort ett konkret hinder för att studera, leva hälsosamt och drömma om framtiden."
+    "p": "Escola Betel drivs i 3 skift (förskola till gymnasium 12:e klass) och integrerar utbildning, dagliga måltider, hållbar infrastruktur och hälsovård för familjer i Cacine."
   },
   "projects": {
-    "school": { "title": "Escola Betel", "text": "Kristen grundutbildning och helhetlig formation för över 842 barn och ungdomar." },
-    "housing": { "title": "Studenthuset", "text": "Säkert boende för elever från avlägsna byar för att fortsätta sina studier." },
-    "radio": { "title": "Fredens Röst Radio", "text": "Samhällskommunikation med information, hälsovård och hopp." },
-    "water": { "title": "Rent vatten & hälsa", "text": "Artesiska brunnar för att skydda hundratals familjers hälsa och värdighet." },
-    "digital": { "title": "Digital inkludering", "text": "Tekniklaboratorium som brygga till lärande och arbetsmöjligheter." },
-    "sports": { "title": "Idrottshall", "text": "Idrott, hälsa och gemenskap för ungdomarna i Cacine." }
+    "school": { "title": "Escola Betel (3 Skift)", "text": "845 elever från förskola till gymnasium. 704 elever godkändes under läsåret 2025/2026." },
+    "housing": { "title": "Studenthuset (Internat)", "text": "20 internatplatser för utsatta elever från avlägsna byar, med läxhjälp, boende och måltider." },
+    "radio": { "title": "Fredens Röst Radio (107.7 MHz)", "text": "Programmet 'Betel i etern' med prof. Alfa Djaló, som främjar utbildning och gemenskap." },
+    "water": { "title": "Skolkantin & Rent vatten", "text": "Daglig gratis måltid för grundskolan (ofta barnets enda måltid) + tandvård med Mundo a Sorrir." },
+    "digital": { "title": "Digital inkludering & Solenergi", "text": "Solcellssystem och Starlink Internet donerat av Sverige + Datorkurs med prof. Alfa Djaló." },
+    "sports": { "title": "Betel Idrottshall", "text": "Byggande pågår: markröjning, planering och grund 100% färdiga. Takstruktur nästa steg." }
   },
   "map": {
-    "eyebrow": "Verksamhetsområde",
-    "h2": "Verklig närvaro i Guinea-Bissau.",
-    "p": "Partners finansierar insatser med lokal förankring: en mission inbäddad i Västafrika, ansluten till Tombali-regionen och engagerad i Cacine-sektorn.",
-    "territory": ["Guinea-Bissau (Land)", "Tombali-regionen", "Cacine-sektorn", "91 Byar nådda"]
+    "eyebrow": "Närvaro i Territoriet",
+    "h2": "Verklig närvaro i Guinea-Bissau (Tombali-regionen).",
+    "p": "Verksamhet i Cacine-sektorn och 91 byar i söder, med stöd av sponsorer från Ungern, Sverige, Brasilien, Kanada, Portugal och Senegal.",
+    "territory": ["Guinea-Bissau (Land)", "Tombali-regionen", "Cacine-sektorn (Betel HQ)", "91 Byar nådda"]
   },
   "story": {
-    "eyebrow": "Verkliga berättelser & Vittnesbörd",
+    "eyebrow": "Berättelser & Vittnesbörd",
     "h2": "Röster från dem som lever förvandlingen",
-    "video_title": "Se det officiella vittnesbördet",
-    "video_desc": "Lär känna berättelsen om påverkan och förvandling för dem som betjänas av AAEGB i södra Guinea-Bissau.",
-    "blockquote": "\"Jag gick tre timmar för att studera. Idag bor jag i Studenthuset och drömmer om att bli lärare.\"",
-    "author_1": "Sene (Elev vid Escola Betel)",
-    "blockquote_2": "\"Tillgången till rent vatten och skolan förändrade livet i vår by. Våra barn har nu en framtid.\"",
-    "author_2": "Samhällsledare i Cacine",
-    "p": "Varje partnerskap förkortar avstånd, skyddar drömmar och multiplicerar ledare som fortsätter att tjäna sina egna samhällen."
+    "video_title": "Se det officiella vittnesbördet från Cacine",
+    "video_desc": "Se hur utbildning, skolkantin och infrastruktur bär verklig frukt i barnens och lärarnas liv.",
+    "blockquote": "\"Oändligt tacksam till Gud och dig för förmånen att tjäna vårt folk genom förvandlande utbildning!\"",
+    "author_1": "Pr. José Valberto T. Oliveira (Rektor för Escola Betel)",
+    "blockquote_2": "\"Skolkantinen garanterar den enda dagliga måltiden för många av våra barn, vilket ökar närvaron och lärandet.\"",
+    "author_2": "Pedagogiskt & Kantin-team på Betel",
+    "p": "Varje partnerskap förkortar avstånd, skyddar drömmar och multiplicerar ledare i södra Guinea-Bissau."
   },
   "transparency": {
-    "eyebrow": "100% Transparens",
-    "h2": "Vi värdesätter transparens i alla projekt.",
-    "p": "Nedan kan du se framstegen i detalj för varje projekt och få tillgång till fullständig ekonomisk redovisning.",
-    "sheet_button": "Öppna fullständig ekonomisk redovisning (Kalkylark ↗)",
+    "eyebrow": "Verksamhetsrapport 2025/2026",
+    "h2": "Transparens och Skolresultat",
+    "p": "Se de verkliga framstegen från den officiella rapporten 2025/2026 för Escola Betel i Cacine.",
+    "sheet_button": "Se Officiell Rapport 2025/2026 (PDF ↗)",
     "checks": [
-      "Periodiska och reviderade ekonomiska rapporter",
-      "Fältfoton, kvitton och framstegsindikatorer",
-      "Transparenta måluppdateringar per initiativ",
-      "Direkt relation med partners och givare"
+      "845 inskrivna elever: 490 pojkar och 355 flickor (704 godkändes)",
+      "Grund för idrottshallen 100% färdigställd",
+      "Skolkantin serverar dagliga måltider i grundskolan",
+      "Starlink Internet + Solenergisystem donerat av svenska volontärer",
+      "Gratis tandvård och material från NGO Mundo a Sorrir (Portugal)",
+      "21 lärare och dedikerad pedagogisk personal på plats"
     ]
   },
   "campaign": {
     "eyebrow": "Utvalt projekt",
-    "h2": "Byggande av Betel Idrottshall",
-    "p": "Ett utrymme för idrott, gemenskap och helhetlig formation, som utökar skolans räckvidd till ungdomar, familjer och grannbyar.",
-    "meta_label": "Kampanjmål",
-    "raised_label": "Insamlat hittills",
-    "progress_text": "Donera och hjälp till att slutföra idrottshallen i år.",
+    "h2": "Takläggning av Betel Idrottshall",
+    "p": "Grund och fundament är klara! Nästa steg är att resa takstrukturen så snart container med material anländer till Cacine.",
+    "meta_label": "Mål för Takstadiet",
+    "raised_label": "Grund Färdigställd",
+    "progress_text": "Hjälp till att finansiera takstrukturen och idrottsgolvet för våra 845 elever.",
     "cta_all_projects": "Se alla projekt ↑"
   },
   "participation": {
     "eyebrow": "Hur man deltar",
-    "h2": "Välj det bästa sättet att gå med Cacine.",
+    "h2": "Bli en del av uppdraget att bygga liv i Cacine.",
     "cards": {
-      "maintainer": { "title": "Bli en supporter", "desc": "Stöd uppdraget månatligen och säkerställ alla projekts kontinuerliga hållbarhet." },
-      "student": { "title": "Sponsra en elev", "desc": "Förvandla ett barns liv genom att garantera utbildning, måltider och skoluniform." },
-      "fund": { "title": "Finansiera ett projekt", "desc": "Gör engångsdonationer för att påskynda rent vatten, boende eller teknik." },
-      "volunteer": { "title": "Bli volontär", "desc": "Donera dina färdigheter inom hälsa, utbildning, teknik eller kommunikation." },
-      "pray": { "title": "Be för missionen", "desc": "Gå med i vårt förbönnätverk och stärk vårt team i fält." },
-      "mobilize": { "title": "Mobilisera din kyrka", "desc": "Ta Cacines sak till din lokala kyrka med hjälp av våra guider och material." }
+      "maintainer": { "title": "Bli en supporter", "desc": "Säkerställ skolavgift och dagliga måltider för barn i störst behov." },
+      "student": { "title": "Sponsra en elev", "desc": "Sponsra en elev och täck uniform, skolmateriel och måltider." },
+      "fund": { "title": "Finansiera taket på hallen", "desc": "Bidra till takstolar, takplåt och byggnadsmaterial." },
+      "volunteer": { "title": "Bli volontär på plats", "desc": "Stöd i Studenthuset, datalektioner, hälsa eller barnomsorg." },
+      "pray": { "title": "Be för missionen", "desc": "Be för lärare, elevernas hälsa och fältteamets skydd." },
+      "mobilize": { "title": "Mobilisera din kyrka", "desc": "Dela Escola Betels rapport med din församling och organisera en gåva." }
     }
   },
   "modals": {
     "close": "Stäng",
     "maintainer": {
-      "title": "Bli en återkommande supporter",
-      "text": "Ditt månatliga stöd håller lärare avlönade, dagliga måltider serverade och projektinfrastrukturen fungerande.",
+      "title": "Bli supporter av Escola Betel",
+      "text": "Ditt månatliga stöd håller 21 lärare, 3 kockar och 3 skolskift igång med stabilitet.",
       "cta": "Fortsätt till supporterprenumeration ↗"
     },
     "student": {
       "title": "Sponsra en elev i Cacine",
-      "impact_title": "Påverkan av ditt sponsring:",
+      "impact_title": "Vad ditt sponsring garanterar:",
       "impact_items": [
-        "Tillgång till grundläggande utbildning av hög kvalitet och skolmaterial",
-        "Näringsrika dagliga måltider på Escola Betel",
-        "Pedagogisk och hälsomässig uppföljning",
-        "Varm omvårdnad och möjlighet till en värdig framtid"
+        "Betalning av skolavgift och läroböcker",
+        "Näringsrik daglig måltid i skolkantinen",
+        "Tandvård och förebyggande hälsovård",
+        "Garanterad plats i de 3 skiften (förskola-gymnasium)"
       ],
       "form_title": "Anmäl intresse för sponsring:",
       "name": "Fullständigt namn",
@@ -106,58 +108,59 @@
       "submit": "Skicka ansökan om sponsring"
     },
     "fund": {
-      "title": "Finansiera ett projekt",
-      "subtitle": "Välj ditt engångsbidrag:",
+      "title": "Finansiera infrastrukturprojekt",
+      "subtitle": "Välj belopp för att stödja taket på idrottshallen och brunnar:",
       "custom": "Anpassat belopp ($/R$)",
-      "pix_title": "Officiell AAEGB Betalningsnyckel / PIX:",
-      "pix_key": "contato@aaegb.org (E-post / PIX-nyckel)",
+      "pix_title": "Officiell e-post / Betalning:",
+      "pix_key": "aaegbbetelcacine@gmail.com (E-post / PIX)",
       "cta": "Bekräfta donation ↗"
     },
     "volunteer": {
-      "title": "Bli volontär hos AAEGB",
-      "desc": "Vi behöver yrkesverksamma och volontärer inom utbildning, hälsa, teknik och kommunikation.",
+      "title": "Bli volontär hos AAEGB / Escola Betel",
+      "desc": "Nuvarande behov: Administration av Studenthuset, Datorundervisning, Tandvård/Hälsa och Barnomsorg.",
       "name": "Fullständigt namn",
       "email": "E-postadress",
       "phone": "Telefon / WhatsApp",
-      "area": "Ditt kompetensområde / Färdigheter",
+      "area": "Kompetensområde (Utbildning, Hälsa, IT, Teknik)",
       "submit": "Skicka volontäransökan"
     },
     "pray": {
-      "title": "Be för Cacine-missionen",
-      "gratitude": "Vi uppskattar djupt ditt förbönshjärta! Bön är pelaren som bär varje steg i fältet.",
-      "topics_title": "Veckans bönämnen:",
+      "title": "Be för missionen i Cacine",
+      "gratitude": "Vi ber att Gud fortsätter att använda dig som en välsignelse för våra elever under läsåret 2026/2027!",
+      "topics_title": "Böneämnen från rapporten 2025/2026:",
       "topics": [
-        "Hälsa och fysiskt skydd för vårt team och lärare i Cacine",
-        "Färdigställande av rentvattenbrunnar och idrottshallen",
-        "Visdom och urskillning för lokalt ledarskap vid Escola Betel"
+        "Visdom och urskillning för rektorn och 21 lärare",
+        "Ankomst av container med material till idrottshallens tak",
+        "Matförsörjning till kantinen och underhåll av Studenthuset",
+        "Fysisk hälsa och skydd för 845 elever och volontärer i fält"
       ],
-      "message_label": "Skicka ett uppmuntrande meddelande till fältteamet:",
+      "message_label": "Skicka ett uppmuntrande meddelande till rektor Pr. Valberto och teamet:",
       "send": "Skicka uppmuntrande meddelande"
     },
     "mobilize": {
-      "title": "Mobilisera din kyrka",
-      "desc": "Vi vill hjälpa din lokala kyrka att engagera sig praktiskt i uppdraget i Guinea-Bissau.",
-      "resources_title": "Tillgängliga resurser:",
+      "title": "Mobilisera din kyrka för Cacine",
+      "desc": "Ta Escola Betels 28-årsrapport till din församling med foton, videor och vittnesbörd.",
+      "resources_title": "Tillgängliga resurser för kyrkor:",
       "resources": [
-        "Bildpresentation & Officiella fältvideor (HD)",
-        "Guide för missionsgudstjänst och predikoark",
-        "Förklarande PDF för äldste och pastorer",
-        "Bokning för presentation på plats eller online med missionärer"
+        "Officiell rapport 2025/2026 i PDF och fältfoton",
+        "Officiell video och byggframsteg i HD",
+        "Missionspredikan och bildpresentation",
+        "Bokning för presentation på plats eller online med Pr. Valberto"
       ],
-      "cta": "Ladda ner mobiliseringspaket (PDF) ↗"
+      "cta": "Ladda ner mobiliseringspaket för kyrkan ↗"
     }
   },
   "footer": {
-    "about_title": "AAEGB",
-    "about_desc": "Föreningen Guinea-Bissaus Skolors Vänner. Plattform för samhällsutveckling i Cacine-sektorn.",
+    "about_title": "AAEGB & Escola Betel",
+    "about_desc": "Föreningen Guinea-Bissaus Skolors Vänner. Förvandlar liv i Cacine-sektorn genom kristen utbildning sedan 1997.",
     "links_title": "Navigering",
     "contact_title": "Kontakt & Plats",
-    "email": "E-post: contato@aaegb.org",
-    "location": "Plats: Cacine-sektorn, Tombali-regionen, Guinea-Bissau",
-    "rights": "© 2026 AAEGB. Alla rättigheter förbehållna."
+    "email": "E-post: aaegbbetelcacine@gmail.com",
+    "location": "Säte: Escola Betel, Cacine-sektorn, Tombali-regionen, Guinea-Bissau",
+    "rights": "© 2026 AAEGB - Escola Betel de Cacine. Alla rättigheter förbehållna."
   },
   "final_cta": {
-    "h2": "Nästa kapitel i denna historia kan börja med dig.",
+    "h2": "Låt oss fortsätta att bygga liv tillsammans i södra Guinea-Bissau.",
     "button": "Jag vill bli partner nu"
   }
 }

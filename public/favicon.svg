@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
-  <circle cx="32" cy="32" r="30" fill="#0f2e1f" stroke="#e9af3f" stroke-width="2.5"/>
-  <circle cx="32" cy="24" r="9" fill="#e9af3f"/>
-  <path d="M 14 40 C 22 35, 30 36, 32 41 C 34 36, 42 35, 50 40 L 50 51 C 42 46, 34 47, 32 52 C 30 47, 22 46, 14 51 Z" fill="#ffffff"/>
-  <polygon points="32,17 33.2,20 36.5,20 34,22 34.8,25 32,23.2 29.2,25 30,22 27.5,20 30.8,20" fill="#c6532d"/>
+  <circle cx="32" cy="32" r="30" fill="#0f2e1f" stroke="#e9af3f" stroke-width="3"/>
+  <!-- Leaf / Betel symbol -->
+  <path d="M 32 10 C 22 18, 14 30, 24 44 C 30 50, 34 50, 40 44 C 50 30, 42 18, 32 10 Z" fill="#e9af3f"/>
+  <path d="M 32 16 C 26 23, 20 32, 28 41 C 32 45, 34 45, 36 41 C 44 32, 38 23, 32 16 Z" fill="#174f3f"/>
+  <!-- Cross / Star of hope -->
+  <polygon points="32,20 33.5,24.5 38,24.5 34.5,27 36,31.5 32,28.5 28,31.5 29.5,27 26,24.5 30.5,24.5" fill="#ffffff"/>
+  <!-- Open Book Base -->
+  <path d="M 16 44 C 23 40, 30 41, 32 45 C 34 41, 41 40, 48 44 L 48 53 C 41 49, 34 50, 32 54 C 30 50, 23 49, 16 53 Z" fill="#ffffff"/>
 </svg>
