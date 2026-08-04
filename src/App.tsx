@@ -81,7 +81,7 @@ function App() {
         <a className="brand" href="#top" aria-label="AAEGB - início" onClick={closeMenu}>
           <img
             className="brand-logo"
-            src="/site-amigos-escolas/images/logo-aaegb.svg"
+            src="/images/logo-aaegb.svg"
             alt="Logo da AAEGB"
           />
           <span>AAEGB</span>
@@ -115,7 +115,7 @@ function App() {
         <section className="hero" aria-label="Apresentação da AAEGB">
           <div className="hero-media">
             <img
-              src="/site-amigos-escolas/images/capa-hero.svg"
+              src="/images/capa-hero.svg"
               alt="Crianças da Escola Betel reunidas em Cacine"
               loading="eager"
             />
