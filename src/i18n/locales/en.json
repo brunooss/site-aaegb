@@ -11,8 +11,8 @@
     "h1_line2": "community development.",
     "lead_before": "In the 2025/2026 school year, Escola Betel served ",
     "lead_strong": "845 children and youth",
-    "lead_after": " in the Cacine Sector, providing comprehensive education from Kindergarten to High School, housing, daily meals, health care, and digital inclusion for the Nalu People.",
-    "cta_primary": "Fund a project",
+    "lead_after": " in the Cacine Sector, providing education from Kindergarten to High School, housing, daily meals, health care, digital inclusion, and national team capacity building.",
+    "cta_primary": "Volunteer in the field",
     "cta_secondary": "See our projects ↓"
   },
   "stats": {
@@ -21,23 +21,29 @@
     "villages": "Villages Served in the South",
     "families": "Student House Boarding Capacity"
   },
+  "partners": {
+    "eyebrow": "International Solidarity & Volunteering Network",
+    "h2": "Partners United for Cacine",
+    "p": "The AAEGB mission is driven by sending qualified volunteers, knowledge transfer, and partnerships such as Ser Mais Valia and international allies.",
+    "volunteer_emphasis": "Our international partnerships focus primarily on sending specialized volunteers and technical capacity building for the local staff, rather than financial resource transfers."
+  },
   "projects_section": {
     "eyebrow": "2025/2026 Activity Report",
     "h2": "Our Projects in Action",
-    "p": "Escola Betel operates in 3 shifts (Kindergarten to 12th Grade) integrating education, daily meals, sustainable infrastructure, and health to transform families in Cacine."
+    "p": "Escola Betel operates in 3 shifts (Kindergarten to 12th Grade) integrating education, daily meals, sustainable infrastructure, and volunteer training to transform Cacine."
   },
   "projects": {
     "school": { "title": "Escola Betel (3 Shifts)", "text": "845 students served from Kindergarten to High School (12th Grade). 704 students passed in the 2025/2026 school year." },
     "housing": { "title": "Student House (Boarding)", "text": "20 boarding spots for vulnerable students from distant villages, with tutoring, housing, and meals." },
     "radio": { "title": "Voice of Peace Radio (107.7 MHz)", "text": "'Betel on the Air' program hosted by Prof. Alfa Djaló, promoting education and community awareness." },
     "water": { "title": "School Canteen & Clean Water", "text": "Daily free meals for Primary School (often the child's only daily meal) + dental care with NGO Mundo a Sorrir." },
-    "digital": { "title": "Digital Inclusion & Solar Energy", "text": "Solar power system and Starlink Internet donated by Sweden + Computer Course with Prof. Alfa Djaló." },
-    "sports": { "title": "Betel Sports Gymnasium", "text": "Construction in progress: land clearing, leveling, and foundation 100% completed. Roof structure next." }
+    "digital": { "title": "Digital Inclusion & Solar Energy", "text": "Solar power system and Starlink Internet donated by Sweden + Computer Course with volunteers and Prof. Alfa Djaló." },
+    "sports": { "title": "Betel Sports Gymnasium", "text": "Project funded by Hungarian partners. Foundation and footings 100% completed; roof structure next." }
   },
   "map": {
     "eyebrow": "Territorial Presence",
     "h2": "Real presence in Guinea-Bissau (Tombali Region).",
-    "p": "Active focus in the Cacine Sector and 91 southern villages, supported by sponsors from Hungary, Sweden, Brazil, Canada, Portugal, and Senegal.",
+    "p": "Active focus in the Cacine Sector and 91 southern villages, supported by volunteers and partners from Brazil, Sweden, Hungary, Canada, Portugal (Ser Mais Valia & Mundo a Sorrir), and Senegal.",
     "territory": ["Guinea-Bissau (Country)", "Tombali Region", "Cacine Sector (Betel HQ)", "91 Villages Served"]
   },
   "story": {
@@ -58,30 +64,31 @@
     "sheet_button": "View 2025/2026 Official Report (Full PDF ↗)",
     "checks": [
       "845 students enrolled: 490 boys and 355 girls (704 passed)",
-      "Foundation and footings of Sports Gymnasium 100% completed",
+      "Sports Gymnasium construction 100% funded by Hungarian partners",
       "Active school canteen serving daily meals in Primary Education",
       "Starlink Internet + Solar Power System donated by Swedish volunteers",
+      "Partnership with Ser Mais Valia for volunteer sending and training",
       "Free dental check-ups and supplies by NGO Mundo a Sorrir (Portugal)",
-      "21 teachers and dedicated pedagogical staff in the field"
+      "21 teachers and dedicated pedagogical staff trained in the field"
     ]
   },
   "campaign": {
-    "eyebrow": "Featured project",
-    "h2": "Roofing of Betel Sports Gymnasium",
-    "p": "Foundation and footings are ready! The next step is raising the roof structure as soon as the material container arrives in Cacine.",
-    "meta_label": "Roofing Stage Goal",
-    "raised_label": "Foundation Completed",
-    "progress_text": "Help fund the roof structure and sports flooring for our 845 students.",
+    "eyebrow": "Volunteering & Capacity Building Fund",
+    "h2": "Volunteer Support & National Team Capacity Building",
+    "p": "Please note that the construction of the Sports Gymnasium was fully funded by Hungarian partners. Funds managed by AAEGB are dedicated to supporting volunteers in the field and providing ongoing capacity building for our local teaching team.",
+    "meta_label": "Capacity Building Fund",
+    "raised_label": "Gymnasium Funded (Hungary)",
+    "progress_text": "Support the fund for volunteer deployment and ongoing training for our 21 local teachers in Cacine.",
     "cta_all_projects": "See all projects ↑"
   },
   "participation": {
-    "eyebrow": "How to participate",
-    "h2": "Join the mission of building lives in Cacine.",
+    "eyebrow": "Greatest Need: Volunteering & Capacity Building",
+    "h2": "Join the mission of empowering lives in Cacine.",
     "cards": {
+      "volunteer": { "title": "Volunteer in the field", "desc": "Our GREATEST need! Support local team capacity building, computer classes, health, or student house management." },
+      "fund": { "title": "Volunteer & Capacity Building Fund", "desc": "Fund field volunteer placement and ongoing training for local teachers (gymnasium building funded by Hungary)." },
       "maintainer": { "title": "Become a sustainer", "desc": "Ensure school tuition and daily meals for children most in need." },
       "student": { "title": "Sponsor a student", "desc": "Sponsor a student covering uniform, school supplies, and daily meals." },
-      "fund": { "title": "Fund the Gymnasium roof", "desc": "Contribute to metal roof beams, roofing sheets, and building supplies." },
-      "volunteer": { "title": "Volunteer in the field", "desc": "Support Student House management, computer classes, health, or youth care." },
       "pray": { "title": "Pray for the mission", "desc": "Intercede for teachers, student health, and field team protection." },
       "mobilize": { "title": "Mobilize your church", "desc": "Share Escola Betel's report with your church and organize a love offering." }
     }
@@ -108,16 +115,17 @@
       "submit": "Submit Sponsor Application"
     },
     "fund": {
-      "title": "Fund Infrastructure Projects",
-      "subtitle": "Choose an amount to support the Gymnasium roof and artesian wells:",
+      "title": "Volunteer & National Team Capacity Fund",
+      "subtitle": "Note: Construction of the Sports Gymnasium was funded by Hungarian partners. Contributions to this fund support field volunteer deployment and local teacher training:",
       "custom": "Custom amount ($/R$)",
-      "pix_title": "Official Email / Payment Key:",
-      "pix_key": "aaegbbetelcacine@gmail.com (Email / PIX)",
-      "cta": "Confirm Donation ↗"
+      "pix_title": "Transfer Details & Official PIX (Associação Mãos Que Compartilham):",
+      "pix_key": "37.747.064/0001-60 (PIX / CNPJ)",
+      "bank_info": "Bank: 403 - Cora SCFI | Agency: 0001 | Account: 6056291-9 | Beneficiary: Associação Mãos Que Compartilham",
+      "cta": "Confirm Donation / Send Proof ↗"
     },
     "volunteer": {
-      "title": "Volunteer with AAEGB / Escola Betel",
-      "desc": "Current needs: Student House Administration, Computer Instruction, Dentistry/Health, and Primary Care.",
+      "title": "Volunteer with AAEGB / Escola Betel (Greatest Need)",
+      "desc": "Sending volunteers and training the local team is our HIGHEST NEED in Cacine! Priority areas: Teacher Training, IT/Computers, Health/Dentistry, Engineering, and House Management.",
       "name": "Full Name",
       "email": "Email Address",
       "phone": "Phone / WhatsApp",
@@ -130,7 +138,7 @@
       "topics_title": "2025/2026 Report Prayer Focus:",
       "topics": [
         "Wisdom and discernment for the director and 21 teachers",
-        "Arrival of the container with materials for the Gymnasium roof",
+        "Deployment and safety of field volunteers and national team training",
         "Food supplies for the Canteen and Student House maintenance",
         "Physical health and protection for 845 students and field volunteers"
       ],
@@ -152,7 +160,7 @@
   },
   "footer": {
     "about_title": "AAEGB & Escola Betel",
-    "about_desc": "Association of Friends of Guinea-Bissau Schools. Transforming lives in the Cacine Sector through Christian Education since 1997.",
+    "about_desc": "Association of Friends of Guinea-Bissau Schools. Represented in Brazil by Associação Mãos Que Compartilham. Transforming lives in Cacine through Christian Education since 1997.",
     "links_title": "Navigation",
     "contact_title": "Contact & Location",
     "email": "Email: aaegbbetelcacine@gmail.com",

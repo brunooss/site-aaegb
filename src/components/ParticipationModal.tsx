@@ -124,7 +124,7 @@ export function ParticipationModal({ activeType, onClose }: Props) {
         return (
           <div className="modal-body-content">
             <h3>{t('modals.fund.title')}</h3>
-            <p>{t('modals.fund.subtitle')}</p>
+            <p className="fund-disclaimer">{t('modals.fund.subtitle')}</p>
 
             <div className="amount-selector">
               {[50, 100, 250, 500].map((val) => (
@@ -141,11 +141,26 @@ export function ParticipationModal({ activeType, onClose }: Props) {
 
             <div className="pix-info-card">
               <strong>{t('modals.fund.pix_title')}</strong>
-              <code className="pix-key">{t('modals.fund.pix_key')}</code>
+              <div className="bank-details-grid">
+                <div><strong>PIX (CNPJ):</strong> <code>37.747.064/0001-60</code></div>
+                <div><strong>Instituição:</strong> 403 - Cora SCFI</div>
+                <div><strong>Agência:</strong> 0001 | <strong>Conta:</strong> 6056291-9</div>
+                <div><strong>Razão Social:</strong> Associação Mãos Que Compartilham</div>
+              </div>
+              <button
+                type="button"
+                className="button secondary copy-pix-btn mt-3"
+                onClick={() => {
+                  navigator.clipboard.writeText('37.747.064/0001-60')
+                  alert('Chave PIX (37.747.064/0001-60) copiada com sucesso!')
+                }}
+              >
+                📋 Copiar Chave PIX
+              </button>
             </div>
 
             <a
-              href={`mailto:contato@aaegb.org?subject=Doacao%20de%20R$%20${amount}`}
+              href={`mailto:aaegbbetelcacine@gmail.com?subject=Apoio%20Fundo%20Voluntariado%20de%20R$%20${amount}`}
               className="button primary full-width"
             >
               {t('modals.fund.cta')}
@@ -156,18 +171,19 @@ export function ParticipationModal({ activeType, onClose }: Props) {
       case 'volunteer':
         return (
           <div className="modal-body-content">
+            <span className="priority-badge mb-2">⭐ MAIOR NECESSIDADE</span>
             <h3>{t('modals.volunteer.title')}</h3>
             <p>{t('modals.volunteer.desc')}</p>
 
             <form
               onSubmit={(e) =>
-                handleFormSubmit(e, 'Candidatura enviada! Nossa equipe entrará em contato em breve.')
+                handleFormSubmit(e, 'Candidatura enviada! Nossa equipe entrará em contato em breve para alinhar o voluntariado e capacitação.')
               }
               className="modal-form"
             >
               <div className="form-group">
                 <label>{t('modals.volunteer.name')}</label>
-                <input type="text" required placeholder="Seu nome" />
+                <input type="text" required placeholder="Seu nome completo" />
               </div>
               <div className="form-group">
                 <label>{t('modals.volunteer.email')}</label>
@@ -182,7 +198,7 @@ export function ParticipationModal({ activeType, onClose }: Props) {
                 <input
                   type="text"
                   required
-                  placeholder="Ex: Educação Infantil, Enfermagem, Engenharia..."
+                  placeholder="Ex: Capacitação Pedagógica, Informática, Saúde, Gestão..."
                 />
               </div>
               <button type="submit" className="button primary full-width">

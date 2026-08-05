@@ -725,6 +725,67 @@ p { color: var(--text-muted); line-height: 1.7; font-size: 1.05rem; }
 .pix-info-card { background: var(--cream); padding: 1.25rem; border-radius: 1.2rem; margin-bottom: 1.5rem; text-align: center; border: 1px solid #e6e0d2; }
 .pix-key { display: block; margin-top: 0.5rem; font-size: 1.15rem; color: var(--ember); font-weight: 900; }
 
+.partner-notice-box {
+  background: var(--cream);
+  border: 1.5px solid var(--saffron-dark);
+  padding: 1.25rem 1.75rem;
+  border-radius: 1.2rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.partner-notice-box p {
+  margin: 0;
+  color: var(--forest-deep);
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.partner-notice-box .notice-icon {
+  font-size: 1.8rem;
+}
+
+.bank-details-grid {
+  display: grid;
+  gap: 0.4rem;
+  text-align: left;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px dashed var(--saffron-dark);
+  margin-top: 0.75rem;
+  font-size: 0.92rem;
+}
+.bank-details-sub {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.85rem;
+  color: var(--forest-deep);
+}
+.priority-badge {
+  display: inline-block;
+  background: var(--ember);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 900;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  letter-spacing: 0.05em;
+}
+.fund-disclaimer {
+  background: rgba(233, 175, 63, 0.15);
+  border-left: 4px solid var(--saffron-dark);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--forest-deep);
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+
 .video-modal-container { width: min(920px, 100%); padding: 1rem; background: #000; }
 .video-iframe-box { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 1.2rem; }
 .video-iframe-box iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }

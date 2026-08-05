@@ -11,8 +11,8 @@
     "h1_line2": "samhällsutveckling.",
     "lead_before": "Under läsåret 2025/2026 tog Escola Betel hand om ",
     "lead_strong": "845 barn och ungdomar",
-    "lead_after": " i Cacine-sektorn, med helhetlig utbildning från förskola till gymnasium, boende, dagliga måltider, hälsovård och digital inkludering för Nalu-folket.",
-    "cta_primary": "Finansiera ett projekt",
+    "lead_after": " i Cacine-sektorn, med utbildning från förskola till gymnasium, boende, dagliga måltider, hälsovård, digital inkludering och kompetensutveckling för det lokala teamet.",
+    "cta_primary": "Bli volontär på plats",
     "cta_secondary": "Se våra projekt ↓"
   },
   "stats": {
@@ -21,23 +21,29 @@
     "villages": "Byar i Södern",
     "families": "Platser i Studenthuset (Internat)"
   },
+  "partners": {
+    "eyebrow": "Internationellt nätverk för volontärarbete och solidaritet",
+    "h2": "Partners förenade för Cacine",
+    "p": "AAEGBS uppdrag drivs av utsändning av kvalificerade volontärer, kunskapsöverföring och partnerskap som Ser Mais Valia och internationella allierade.",
+    "volunteer_emphasis": "Våra internationella partnerskap fokuserar i första hand på att skicka volontärer och teknisk kompetensutveckling för det lokala teamet, snarare än ekonomiska överföringar."
+  },
   "projects_section": {
     "eyebrow": "Verksamhetsrapport 2025/2026",
     "h2": "Våra projekt i handling",
-    "p": "Escola Betel drivs i 3 skift (förskola till gymnasium 12:e klass) och integrerar utbildning, dagliga måltider, hållbar infrastruktur och hälsovård för familjer i Cacine."
+    "p": "Escola Betel drivs i 3 skift och integrerar utbildning, måltider, hållbar infrastruktur och volontärutbildning för att förvandla Cacine."
   },
   "projects": {
     "school": { "title": "Escola Betel (3 Skift)", "text": "845 elever från förskola till gymnasium. 704 elever godkändes under läsåret 2025/2026." },
     "housing": { "title": "Studenthuset (Internat)", "text": "20 internatplatser för utsatta elever från avlägsna byar, med läxhjälp, boende och måltider." },
     "radio": { "title": "Fredens Röst Radio (107.7 MHz)", "text": "Programmet 'Betel i etern' med prof. Alfa Djaló, som främjar utbildning och gemenskap." },
     "water": { "title": "Skolkantin & Rent vatten", "text": "Daglig gratis måltid för grundskolan (ofta barnets enda måltid) + tandvård med Mundo a Sorrir." },
-    "digital": { "title": "Digital inkludering & Solenergi", "text": "Solcellssystem och Starlink Internet donerat av Sverige + Datorkurs med prof. Alfa Djaló." },
-    "sports": { "title": "Betel Idrottshall", "text": "Byggande pågår: markröjning, planering och grund 100% färdiga. Takstruktur nästa steg." }
+    "digital": { "title": "Digital inkludering & Solenergi", "text": "Solcellssystem och Starlink Internet donerat av Sverige + Datorkurs med volontärer och prof. Alfa Djaló." },
+    "sports": { "title": "Betel Idrottshall", "text": "Projekt finansierat av ungerska partners. Grund och fundament 100% färdiga; takstruktur nästa steg." }
   },
   "map": {
     "eyebrow": "Närvaro i Territoriet",
     "h2": "Verklig närvaro i Guinea-Bissau (Tombali-regionen).",
-    "p": "Verksamhet i Cacine-sektorn och 91 byar i söder, med stöd av sponsorer från Ungern, Sverige, Brasilien, Kanada, Portugal och Senegal.",
+    "p": "Verksamhet i Cacine-sektorn och 91 byar i söder, med stöd av volontärer och sponsorer från Ungern, Sverige, Brasilien, Kanada, Portugal (Ser Mais Valia & Mundo a Sorrir) och Senegal.",
     "territory": ["Guinea-Bissau (Land)", "Tombali-regionen", "Cacine-sektorn (Betel HQ)", "91 Byar nådda"]
   },
   "story": {
@@ -58,30 +64,31 @@
     "sheet_button": "Se Officiell Rapport 2025/2026 (PDF ↗)",
     "checks": [
       "845 inskrivna elever: 490 pojkar och 355 flickor (704 godkändes)",
-      "Grund för idrottshallen 100% färdigställd",
+      "Byggande av idrottshallen 100% finansierat av ungerska partners",
       "Skolkantin serverar dagliga måltider i grundskolan",
       "Starlink Internet + Solenergisystem donerat av svenska volontärer",
+      "Partnerskap med Ser Mais Valia för volontärer och utbildning",
       "Gratis tandvård och material från NGO Mundo a Sorrir (Portugal)",
-      "21 lärare och dedikerad pedagogisk personal på plats"
+      "21 lärare och dedikerad personal utbildade i fält"
     ]
   },
   "campaign": {
-    "eyebrow": "Utvalt projekt",
-    "h2": "Takläggning av Betel Idrottshall",
-    "p": "Grund och fundament är klara! Nästa steg är att resa takstrukturen så snart container med material anländer till Cacine.",
-    "meta_label": "Mål för Takstadiet",
-    "raised_label": "Grund Färdigställd",
-    "progress_text": "Hjälp till att finansiera takstrukturen och idrottsgolvet för våra 845 elever.",
+    "eyebrow": "Volontär- och utbildningsfond",
+    "h2": "Stöd till volontärer och kompetensutveckling",
+    "p": "Observera att byggandet av idrottshallen var helt finansierat av ungerska partners. Fonder som förvaltas av AAEGB är avsedda för stöd till volontärer på plats och kontinuerlig utbildning av vårt lokala lärarteam.",
+    "meta_label": "Kompetensfond",
+    "raised_label": "Hallen finansierad (Ungern)",
+    "progress_text": "Stöd fonden för volontärinsatser och kontinuerlig utbildning för våra 21 lokala lärare i Cacine.",
     "cta_all_projects": "Se alla projekt ↑"
   },
   "participation": {
-    "eyebrow": "Hur man deltar",
-    "h2": "Bli en del av uppdraget att bygga liv i Cacine.",
+    "eyebrow": "Största behov: Volontärarbete och kompetensutveckling",
+    "h2": "Bli en del av uppdraget att stärk liv i Cacine.",
     "cards": {
+      "volunteer": { "title": "Bli volontär på plats", "desc": "Vårt STÖRSTA behov! Stöd utbildning av det lokala teamet, datalektioner, hälsa eller internatstyrelse." },
+      "fund": { "title": "Fond för volontärer & utbildning", "desc": "Finansiera volontärinsatser och utbildning för lokala lärare (hallen finansierad av Ungern)." },
       "maintainer": { "title": "Bli en supporter", "desc": "Säkerställ skolavgift och dagliga måltider för barn i störst behov." },
       "student": { "title": "Sponsra en elev", "desc": "Sponsra en elev och täck uniform, skolmateriel och måltider." },
-      "fund": { "title": "Finansiera taket på hallen", "desc": "Bidra till takstolar, takplåt och byggnadsmaterial." },
-      "volunteer": { "title": "Bli volontär på plats", "desc": "Stöd i Studenthuset, datalektioner, hälsa eller barnomsorg." },
       "pray": { "title": "Be för missionen", "desc": "Be för lärare, elevernas hälsa och fältteamets skydd." },
       "mobilize": { "title": "Mobilisera din kyrka", "desc": "Dela Escola Betels rapport med din församling och organisera en gåva." }
     }
@@ -108,16 +115,17 @@
       "submit": "Skicka ansökan om sponsring"
     },
     "fund": {
-      "title": "Finansiera infrastrukturprojekt",
-      "subtitle": "Välj belopp för att stödja taket på idrottshallen och brunnar:",
+      "title": "Fond för volontärer och lokalt lärarteam",
+      "subtitle": "Obs: Idrottshallen finansierades av ungerska partners. Bidrag till denna fond stödjer volontärinsatser och lokal lärarutbildning:",
       "custom": "Anpassat belopp ($/R$)",
-      "pix_title": "Officiell e-post / Betalning:",
-      "pix_key": "aaegbbetelcacine@gmail.com (E-post / PIX)",
-      "cta": "Bekräfta donation ↗"
+      "pix_title": "Bankuppgifter & Officiell PIX (Associação Mãos Que Compartilham):",
+      "pix_key": "37.747.064/0001-60 (PIX / CNPJ)",
+      "bank_info": "Bank: 403 - Cora SCFI | Agentur: 0001 | Konto: 6056291-9 | Mottagare: Associação Mãos Que Compartilham",
+      "cta": "Bekräfta donation / Skicka kvitto ↗"
     },
     "volunteer": {
-      "title": "Bli volontär hos AAEGB / Escola Betel",
-      "desc": "Nuvarande behov: Administration av Studenthuset, Datorundervisning, Tandvård/Hälsa och Barnomsorg.",
+      "title": "Bli volontär hos AAEGB / Escola Betel (Största behov)",
+      "desc": "Att skicka volontärer och utbilda det lokala teamet är vårt HÖGSTA BEHOV i Cacine! Prioområden: Lärarutbildning, IT/Datorer, Hälsa/Tandvård, Teknik och Internatstyrelse.",
       "name": "Fullständigt namn",
       "email": "E-postadress",
       "phone": "Telefon / WhatsApp",
@@ -130,7 +138,7 @@
       "topics_title": "Böneämnen från rapporten 2025/2026:",
       "topics": [
         "Visdom och urskillning för rektorn och 21 lärare",
-        "Ankomst av container med material till idrottshallens tak",
+        "Utsändning och skydd för volontärer och utbildning av teamet",
         "Matförsörjning till kantinen och underhåll av Studenthuset",
         "Fysisk hälsa och skydd för 845 elever och volontärer i fält"
       ],
@@ -152,7 +160,7 @@
   },
   "footer": {
     "about_title": "AAEGB & Escola Betel",
-    "about_desc": "Föreningen Guinea-Bissaus Skolors Vänner. Förvandlar liv i Cacine-sektorn genom kristen utbildning sedan 1997.",
+    "about_desc": "Föreningen Guinea-Bissaus Skolors Vänner. Representerad i Brasilien av Associação Mãos Que Compartilham. Förvandlar liv i Cacine sedan 1997.",
     "links_title": "Navigering",
     "contact_title": "Kontakt & Plats",
     "email": "E-post: aaegbbetelcacine@gmail.com",

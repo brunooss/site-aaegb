@@ -19,14 +19,25 @@ const IMPACT_STATS = [
 
 const TRANSPARENCY_PROJECTS = [
   { key: 'school', percent: 100, raised: '845 Alunos', goal: '704 Aprovados' },
-  { key: 'sports', percent: 65, raised: 'Fundação Pronta', goal: 'Cobertura / Telhado' },
+  { key: 'sports', percent: 100, raised: 'Financiado pela Hungria', goal: 'Ginásio Poliesportivo' },
   { key: 'housing', percent: 100, raised: '20 Vagas Internato', goal: '100% Ocupado' },
   { key: 'water', percent: 100, raised: 'Cantina Ativa', goal: 'Refeições Diárias' },
   { key: 'digital', percent: 100, raised: 'Starlink & Solar', goal: '100% Conectado' },
   { key: 'radio', percent: 85, raised: 'FM 107.7 MHz', goal: 'Programa Diário' },
 ]
 
-const PARTICIPATION_CARDS: { type: ParticipationType; icon: string; image: string }[] = [
+const PARTICIPATION_CARDS: { type: ParticipationType; icon: string; image: string; isPriority?: boolean }[] = [
+  {
+    type: 'volunteer',
+    icon: '🤝',
+    image: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=600&q=80',
+    isPriority: true,
+  },
+  {
+    type: 'fund',
+    icon: '💡',
+    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=600&q=80',
+  },
   {
     type: 'maintainer',
     icon: '💳',
@@ -36,16 +47,6 @@ const PARTICIPATION_CARDS: { type: ParticipationType; icon: string; image: strin
     type: 'student',
     icon: '🎓',
     image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80',
-  },
-  {
-    type: 'fund',
-    icon: '🏗️',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=600&q=80',
-  },
-  {
-    type: 'volunteer',
-    icon: '🤝',
-    image: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=600&q=80',
   },
   {
     type: 'pray',
@@ -141,8 +142,12 @@ function App() {
             </p>
 
             <div className="hero-actions">
-              <a className="button primary" href="#participar">{t('hero.cta_primary')}</a>
-              <a className="button secondary" href="#projetos">{t('hero.cta_secondary')}</a>
+              <button className="button primary" onClick={() => setActiveModal('volunteer')}>
+                {t('hero.cta_primary')}
+              </button>
+              <a className="button secondary" href="#projetos">
+                {t('hero.cta_secondary')}
+              </a>
             </div>
 
             <div className="hero-stats" id="impacto" aria-label="Indicadores de autoridade">
@@ -241,15 +246,15 @@ function App() {
           </div>
           <div className="progress-card">
             <div className="progress-meta">
-              <span>Status da Obra</span>
-              <strong>Fundação 100% Pronta</strong>
+              <span>Projeto do Ginásio</span>
+              <strong>Financiado (Parceiros Hungria)</strong>
             </div>
-            <div className="progress-track" aria-label="Progresso da obra do Ginásio Poliesportivo">
-              <span style={{ width: '65%' }} />
+            <div className="progress-track" aria-label="Financiamento do Ginásio concluído por parceiros da Hungria">
+              <span style={{ width: '100%' }} />
             </div>
             <p>{t('campaign.progress_text')}</p>
             <button className="button primary full-width mt-4" onClick={() => setActiveModal('fund')}>
-              Financiar a Cobertura do Telhado
+              Apoiar Fundo de Capacitação & Voluntariado
             </button>
           </div>
         </section>

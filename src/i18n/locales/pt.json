@@ -11,8 +11,8 @@
     "h1_line2": "desenvolvimento comunitário.",
     "lead_before": "No ano letivo 2025/2026, a Escola Betel atendeu ",
     "lead_strong": "845 crianças e jovens",
-    "lead_after": " do Setor de Cacine, promovendo educação integral do Ensino Infantil ao Secundário, moradia, alimentação diária, saúde e inclusão digital para o Povo Nalu.",
-    "cta_primary": "Financiar um projeto",
+    "lead_after": " do Setor de Cacine, promovendo educação integral do Ensino Infantil ao Secundário, moradia, alimentação diária, saúde, inclusão digital e capacitação continuada da equipe nacional.",
+    "cta_primary": "Seja voluntário no campo",
     "cta_secondary": "Ver nossos projetos ↓"
   },
   "stats": {
@@ -44,30 +44,31 @@
     "p2_title": "2. Plataforma de Dia a Dia & Alimentação",
     "p2_desc": "Manutenção da cantina escolar, assiduidade diária, internato e saúde bucal das crianças.",
     "p3_title": "3. Plataforma de Capacitação & Tecnologia",
-    "p3_desc": "Formação de professores, laboratório de informática, energia solar, Starlink e comunicação comunitária."
+    "p3_desc": "Formação da equipe nacional de professores, laboratório de informática, energia solar, Starlink e comunicação comunitária."
   },
   "partners": {
-    "eyebrow": "Rede Internacional de Solidariedade",
-    "h2": "Países e Parceiros Unidos por Cacine",
-    "p": "A missão AAEGB é mantida pelo esforço conjunto de doadores, voluntários e fundações parceiras em diversos países."
+    "eyebrow": "Rede Internacional de Solidariedade & Voluntariado",
+    "h2": "Parceiros Unidos por Cacine",
+    "p": "A missão AAEGB é impulsionada pelo envio de voluntários qualificados, transferência de conhecimento e cooperação com organizações como a Ser Mais Valia, além de parceiros internacionais.",
+    "volunteer_emphasis": "Nossas parcerias internacionais têm foco primordial no envio de voluntários qualificados e na capacitação técnica da equipe local, e não necessariamente no repasse de recursos financeiros."
   },
   "projects_section": {
     "eyebrow": "Relatório de Atividades 2025/2026",
     "h2": "Nossos Projetos em Ação",
-    "p": "A Escola Betel opera em 3 turnos (Jardim ao 12º ano) e integra educação, alimentação diária, infraestrutura sustentável e saúde para transformar a vida das famílias de Cacine."
+    "p": "A Escola Betel opera em 3 turnos (Jardim ao 12º ano) e integra educação, alimentação diária, infraestrutura sustentável e capacitação de voluntários para transformar Cacine."
   },
   "projects": {
     "school": { "title": "Escola Betel (3 Turnos)", "text": "845 alunos atendidos do Jardim ao Ensino Secundário (12º ano). 704 alunos aprovados no ano letivo 2025/2026." },
     "housing": { "title": "Casa do Estudante (Internato)", "text": "20 vagas para alunos de aldeias distantes em situação de vulnerabilidade, com reforço escolar, moradia e alimentação." },
     "radio": { "title": "Rádio Voz de Paz (107.7 MHz)", "text": "Programa 'Betel no Ar' pelo Prof. Alfa Djaló, promovendo educação integral e comunicação com as comunidades." },
     "water": { "title": "Cantina Escolar & Água Potável", "text": "Alimentação diária para o Ensino Básico (muitas vezes a única refeição do dia) + apoio da ONG Mundo a Sorrir (dentistas)." },
-    "digital": { "title": "Inclusão Digital & Energia Solar", "text": "Sistema Solar e Internet Starlink doados pela Suécia + Curso de Informática com o Prof. Alfa Djaló." },
-    "sports": { "title": "Ginásio Poliesportivo Betel", "text": "Obras em ritmo acelerado: desmatamento, terraplanagem e fundação/alicerces 100% concluídos. Telhado em andamento." }
+    "digital": { "title": "Inclusão Digital & Energia Solar", "text": "Sistema Solar e Internet Starlink doados pela Suécia + Curso de Informática com voluntários e o Prof. Alfa Djaló." },
+    "sports": { "title": "Ginásio Poliesportivo Betel", "text": "Projeto financiado por parceiros da Hungria. Fundação e alicerces 100% concluídos; estrutura do telhado em andamento." }
   },
   "map": {
     "eyebrow": "Presença Territorial",
     "h2": "Presença real na Guiné-Bissau (Região de Tombali).",
-    "p": "Atuação focada no Setor de Cacine e 91 tabancas do Sul, com apoio de parceiros do Brasil, Suécia, Hungria, Canadá, Portugal e Senegal.",
+    "p": "Atuação focada no Setor de Cacine e 91 tabancas do Sul, com apoio de voluntários e parceiros do Brasil, Suécia, Hungria, Canadá, Portugal (Ser Mais Valia e Mundo a Sorrir) e Senegal.",
     "territory": ["Guiné-Bissau (País)", "Região de Tombali", "Setor de Cacine (Sede Betel)", "91 Tabancas Atendidas"]
   },
   "story": {
@@ -88,30 +89,31 @@
     "sheet_button": "Ver Carta-Relatório Oficial 2025/2026 (PDF Completo ↗)",
     "checks": [
       "845 alunos matriculados: 490 meninos e 355 meninas (704 aprovados)",
-      "Fundação e alicerces do Ginásio Poliesportivo 100% concluídos",
+      "Obras do Ginásio Poliesportivo 100% financiadas por parceiros da Hungria",
       "Cantina escolar ativa servindo refeições diárias no Ensino Básico",
       "Conexão Starlink + Energia Solar doada por voluntários da Suécia",
+      "Parceria com Ser Mais Valia para envio de voluntários e capacitação",
       "Atendimentos odontológicos gratuitos pela ONG Mundo a Sorrir (Portugal)",
-      "21 professores e equipe pedagógica dedicada no campo"
+      "21 professores e equipe pedagógica dedicada capacitada no campo"
     ]
   },
   "campaign": {
-    "eyebrow": "Projeto em destaque",
-    "h2": "Cobertura do Ginásio Poliesportivo Betel",
-    "p": "Fundação e alicerces já estão prontos! O próximo passo é erguer a estrutura do telhado e cobertura assim que o container com materiais chegar a Cacine.",
-    "meta_label": "Meta da Etapa de Cobertura",
-    "raised_label": "Fundação Concluída",
-    "progress_text": "Ajude a financiar a estrutura do telhado e piso poliesportivo para nossos 845 alunos.",
+    "eyebrow": "Fundo de Capacitação & Voluntariado",
+    "h2": "Apoio a Voluntários e Capacitação da Equipe Nacional",
+    "p": "Esclarecemos que a construção do Ginásio Poliesportivo foi totalmente financiada por parceiros da Hungria. O fundo mantido pela AAEGB é destinado ao envio de voluntários no campo e à capacitação continuada da nossa equipe pedagógica nacional.",
+    "meta_label": "Fundo de Capacitação",
+    "raised_label": "Ginásio Financiado (Hungria)",
+    "progress_text": "Contribua para a ida de voluntários e para a formação continuada dos nossos 21 professores em Cacine.",
     "cta_all_projects": "Ver todos os projetos ↑"
   },
   "participation": {
-    "eyebrow": "Como participar",
-    "h2": "Junte-se à missão de construir vidas em Cacine.",
+    "eyebrow": "Maior Necessidade: Voluntariado & Capacitação",
+    "h2": "Junte-se à missão de capacitar vidas em Cacine.",
     "cards": {
+      "volunteer": { "title": "Ser voluntário no campo", "desc": "Nossa MAIOR necessidade! Apoie na capacitação da equipe nacional, aulas de informática, saúde ou gestão do internato." },
+      "fund": { "title": "Fundo para Voluntários & Capacitação", "desc": "Financie a ida de voluntários e o treinamento continuado da equipe pedagógica local (obra do ginásio já financiada pela Hungria)." },
       "maintainer": { "title": "Tornar-se mantenedor", "desc": "Garanta o pagamento da anuidade escolar e alimentação diária das crianças mais necessitadas." },
       "student": { "title": "Adotar um aluno", "desc": "Apadrinhe um estudante garantindo uniforme, material didático e refeição nutritiva." },
-      "fund": { "title": "Financiar a cobertura do Ginásio", "desc": "Contribua com a compra de telhas, estrutura metálica e materiais de construção." },
-      "volunteer": { "title": "Ser voluntário no campo", "desc": "Apoie na Casa do Estudante, aulas de informática, saúde ou coordenação infantil." },
       "pray": { "title": "Orar pela missão", "desc": "Interceda pelos professores, saúde dos alunos e proteção da equipe de campo." },
       "mobilize": { "title": "Mobilizar sua igreja", "desc": "Divulgue o relatório da Escola Betel na sua comunidade e organize uma oferta de amor." }
     }
@@ -138,20 +140,21 @@
       "submit": "Enviar Pré-inscrição de Padrinho"
     },
     "fund": {
-      "title": "Financiar Projetos de Infraestrutura",
-      "subtitle": "Escolha o valor para apoiar o telhado do Poliesportivo e poços artesiano:",
+      "title": "Fundo para Voluntários e Capacitação da Equipe Nacional",
+      "subtitle": "Nota: A construção do Ginásio Poliesportivo foi financiada por parceiros da Hungria. As contribuições para este fundo são destinadas exclusivamente ao envio de voluntários no campo e à capacitação continuada da equipe nacional:",
       "custom": "Outro valor (R$)",
-      "pix_title": "Chave PIX / Contato Oficial:",
-      "pix_key": "aaegbbetelcacine@gmail.com (PIX / E-mail)",
-      "cta": "Confirmar Doação ↗"
+      "pix_title": "Dados para Transferência & Chave PIX (Associação Mãos Que Compartilham):",
+      "pix_key": "37.747.064/0001-60 (PIX / CNPJ)",
+      "bank_info": "Banco: 403 - Cora SCFI | Agência: 0001 | Conta: 6056291-9 | Favorecido: Associação Mãos Que Compartilham",
+      "cta": "Confirmar Doação / Enviar Comprovante ↗"
     },
     "volunteer": {
-      "title": "Seja Voluntário na AAEGB / Escola Betel",
-      "desc": "Necessidades atuais: Administração da Casa do Estudante, instrução de Informática, Odontologia/Saúde e Ensino Infantil.",
+      "title": "Seja Voluntário na AAEGB / Escola Betel (Maior Necessidade)",
+      "desc": "O voluntariado e a capacitação da equipe nacional são a nossa MAIOR NECESSIDADE no Setor de Cacine! Áreas prioritárias: Capacitação Pedagógica de Professores, Informática, Saúde/Odontologia, Engenharia e Gestão.",
       "name": "Nome Completo",
       "email": "E-mail",
       "phone": "Telefone / WhatsApp",
-      "area": "Área (Educação, Saúde, Informática, Engenharia)",
+      "area": "Sua Área de Atuação / Especialidade",
       "submit": "Enviar Candidatura de Voluntário"
     },
     "pray": {
@@ -160,7 +163,7 @@
       "topics_title": "Motivos de Oração do Relatório 2025/2026:",
       "topics": [
         "Sabedoria e discernimento da diretoria e dos 21 professores",
-        "Chegada do container com materiais do telhado do Ginásio Poliesportivo",
+        "Envio e proteção dos voluntários no campo e capacitação da equipe",
         "Suprimento de alimentos para a Cantina Escolar e manutenção do Internato",
         "Saúde física e proteção das 845 crianças e voluntários no campo"
       ],

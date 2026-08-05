@@ -5,7 +5,7 @@ export function ImpactCounters() {
   const { t } = useTranslation()
   const [copiedPix, setCopiedPix] = useState(false)
 
-  const pixKey = 'aaegbbetelcacine@gmail.com'
+  const pixKey = '37.747.064/0001-60'
 
   const handleCopyPix = () => {
     navigator.clipboard.writeText(pixKey)
@@ -62,12 +62,15 @@ export function ImpactCounters() {
 
         <div className="pix-fast-col">
           <div className="pix-card-inner">
-            <span className="pix-label">Chave PIX / E-mail Oficial:</span>
+            <span className="pix-label">💳 PIX Oficial (CNPJ):</span>
             <code className="pix-code-text">{pixKey}</code>
             <button className="button primary copy-pix-btn" onClick={handleCopyPix}>
               {copiedPix ? '✓ Chave PIX Copiada!' : 'Copiar Chave PIX'}
             </button>
-            <span className="pix-cnpj-sub">Associação Mãos Que Compartilham (Representante no Brasil) · CNPJ: 29.222.231/0001-21</span>
+            <div className="bank-details-sub">
+              <strong>Associação Mãos Que Compartilham</strong>
+              <span>Banco: 403 - Cora SCFI | Agência: 0001 | Conta: 6056291-9</span>
+            </div>
           </div>
         </div>
       </div>
