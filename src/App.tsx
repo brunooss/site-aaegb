@@ -4,6 +4,9 @@ import { LanguageSelector } from './components/LanguageSelector'
 import { ProjectCarousel } from './components/ProjectCarousel'
 import { InteractiveMap } from './components/InteractiveMap'
 import { Testimonials } from './components/Testimonials'
+import { ImpactCounters } from './components/ImpactCounters'
+import { PillarsSection } from './components/PillarsSection'
+import { PartnersSection } from './components/PartnersSection'
 import { ParticipationModal, ParticipationType } from './components/ParticipationModal'
 import { Footer } from './components/Footer'
 
@@ -153,6 +156,12 @@ function App() {
           </div>
         </section>
 
+        {/* Detailed Impact Counters & Cost per Student */}
+        <ImpactCounters />
+
+        {/* 3 Strategic Pillars Section */}
+        <PillarsSection />
+
         {/* Projects Carousel Section */}
         <section className="section" id="projetos">
           <div className="section-heading">
@@ -244,6 +253,9 @@ function App() {
             </button>
           </div>
         </section>
+
+        {/* International Partners & Countries Network */}
+        <PartnersSection />
 
         {/* How to Participate Section */}
         <section className="section" id="participar">

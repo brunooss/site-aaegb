@@ -21,6 +21,36 @@
     "villages": "Tabancas beneficiadas no Sul",
     "families": "Vagas no Internato (Casa do Estudante)"
   },
+  "impact_counters": {
+    "eyebrow": "Indicadores Numéricos de Impacto",
+    "h2": "Resultados Concretos do Ano Letivo",
+    "p": "Cada número representa uma vida cuidada, um prato de comida servido e um futuro sendo transformado em Cacine.",
+    "students": "Alunos Matriculados",
+    "meals": "Refeições Servidas / Ano",
+    "meals_sub": "Alimentação Gratuita no Ensino Básico",
+    "boarding": "Alunos no Internato",
+    "boarding_sub": "Vagas na Casa do Estudante",
+    "staff": "Educadores & Equipe de Campo",
+    "cost_badge": "Transparência Financeira",
+    "cost_title": "Custo Médio Mensal por Aluno: R$ 100,00",
+    "cost_desc": "Com apenas R$ 100,00 por mês (ou R$ 3,30 por dia), você garante a anuidade escolar, fardamento, material didático e alimentação diária de uma criança em Cacine."
+  },
+  "pillars": {
+    "eyebrow": "Metodologia de Atuação",
+    "h2": "Os 3 Pilares da Missão AAEGB",
+    "p": "Nossos projetos são estruturados em 3 plataformas complementares para garantir a sustentabilidade e o desenvolvimento integral do Povo Nalu.",
+    "p1_title": "1. Plataforma de Infraestrutura",
+    "p1_desc": "Construção e requalificação de edifícios escolares, garantindo ambientes seguros e funcionais.",
+    "p2_title": "2. Plataforma de Dia a Dia & Alimentação",
+    "p2_desc": "Manutenção da cantina escolar, assiduidade diária, internato e saúde bucal das crianças.",
+    "p3_title": "3. Plataforma de Capacitação & Tecnologia",
+    "p3_desc": "Formação de professores, laboratório de informática, energia solar, Starlink e comunicação comunitária."
+  },
+  "partners": {
+    "eyebrow": "Rede Internacional de Solidariedade",
+    "h2": "Países e Parceiros Unidos por Cacine",
+    "p": "A missão AAEGB é mantida pelo esforço conjunto de doadores, voluntários e fundações parceiras em diversos países."
+  },
   "projects_section": {
     "eyebrow": "Relatório de Atividades 2025/2026",
     "h2": "Nossos Projetos em Ação",

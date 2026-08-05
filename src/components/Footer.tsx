@@ -20,10 +20,7 @@ export function Footer() {
             <a href="https://www.instagram.com/maosquecompartilham/" target="_blank" rel="noreferrer" aria-label="Instagram">
               📸 Instagram
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
-              📘 Facebook
-            </a>
-            <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube">
+            <a href="https://www.youtube.com/channel/UCWhKQkB8Q7U8QULtUKTv9-Q" target="_blank" rel="noreferrer" aria-label="YouTube">
               ▶ YouTube
             </a>
           </div>
