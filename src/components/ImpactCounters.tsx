@@ -67,7 +67,7 @@ export function ImpactCounters() {
             <button className="button primary copy-pix-btn" onClick={handleCopyPix}>
               {copiedPix ? '✓ Chave PIX Copiada!' : 'Copiar Chave PIX'}
             </button>
-            <span className="pix-cnpj-sub">CNPJ: 29.222.231/0001-21 · AAEGB</span>
+            <span className="pix-cnpj-sub">Associação Mãos Que Compartilham (Representante no Brasil) · CNPJ: 29.222.231/0001-21</span>
           </div>
         </div>
       </div>
